@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://changchiyou.github.io/feeds/all.xml</id>
+    <id>https://changchiyou.github.io/wildrift-news-feeds/all.xml</id>
     <title>Combined feed</title>
-    <updated>2024-05-31T03:14:40.946Z</updated>
+    <updated>2024-05-31T05:37:10.082Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <entry>
         <title type="html"><![CDATA[Wild Rift Patch Notes 5.1b (Wild Rift News (en-us))]]></title>
