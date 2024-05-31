@@ -18,4 +18,4 @@
 
   |Readybot.io Dashbord|Discord Result|
   |-|-|
-  |![](https://github.com/changchiyou/wildrift-news-feeds/assets/46549482/6724ae3b-8cf7-4908-9326-fddb33c02407)|![](https://github.com/changchiyou/wildrift-news-feeds/assets/46549482/5aa165bd-7449-4c2a-b204-6dd389552f10)|
+  |![](https://github.com/changchiyou/wildrift-news-feeds/assets/46549482/91f6e847-db02-4cd3-889b-f629cfe74cab)|![](https://github.com/changchiyou/wildrift-news-feeds/assets/46549482/5aa165bd-7449-4c2a-b204-6dd389552f10)|
