@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://en.wikipedia.org/wiki/Main_Page</id>
+    <title>Wikipedia — did you know?</title>
+    <updated>2024-05-31T02:35:13.538Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <icon>https://en.wikipedia.org/static/favicon/wikipedia.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Aishwarya Rai Bachchan]]></title>
+        <id>https://en.wikipedia.org/wiki/Aishwarya_Rai_Bachchan</id>
+        <link href="https://en.wikipedia.org/wiki/Aishwarya_Rai_Bachchan"/>
+        <updated>2024-05-31T02:35:08.682Z</updated>
+        <content type="html"><![CDATA[... that <b><a href="/wiki/Aishwarya_Rai_Bachchan" title="Aishwarya Rai Bachchan">Aishwarya Rai Bachchan</a></b> <i>(pictured)</i> was the first Indian actress to be a juror at the <a href="/wiki/Cannes_Film_Festival" title="Cannes Film Festival">Cannes Film Festival</a>?]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cosmic Ray]]></title>
+        <id>https://en.wikipedia.org/wiki/Cosmic_Ray_(film)</id>
+        <link href="https://en.wikipedia.org/wiki/Cosmic_Ray_(film)"/>
+        <updated>2024-05-31T02:35:08.717Z</updated>
+        <content type="html"><![CDATA[... that <a href="/wiki/Bruce_Conner" title="Bruce Conner">Bruce Conner</a> conceived of his short film <i><b><a href="/wiki/Cosmic_Ray_(film)" title="Cosmic Ray (film)">Cosmic Ray</a></b></i> as "presenting the eyes" for blind musician <a href="/wiki/Ray_Charles" title="Ray Charles">Ray Charles</a>?]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Giovanni Manu]]></title>
+        <id>https://en.wikipedia.org/wiki/Giovanni_Manu</id>
+        <link href="https://en.wikipedia.org/wiki/Giovanni_Manu"/>
+        <updated>2024-05-31T02:35:08.719Z</updated>
+        <content type="html"><![CDATA[... that <b><a href="/wiki/Giovanni_Manu" title="Giovanni Manu">Giovanni Manu</a></b> was the first player from his university ever to be selected in the <a href="/wiki/NFL_draft" title="NFL draft">NFL draft</a>?]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sunlight before signing]]></title>
+        <id>https://en.wikipedia.org/wiki/Sunlight_before_signing</id>
+        <link href="https://en.wikipedia.org/wiki/Sunlight_before_signing"/>
+        <updated>2024-05-31T02:35:08.742Z</updated>
+        <content type="html"><![CDATA[... that <a href="/wiki/Barack_Obama" title="Barack Obama">Barack Obama</a> made an election promise to make non-emergency bills freely available online for a five-day public consultation period under "<b><a href="/wiki/Sunlight_before_signing" title="Sunlight before signing">sunlight before signing</a></b>"?]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bob Noel]]></title>
+        <id>https://en.wikipedia.org/wiki/Bob_Noel</id>
+        <link href="https://en.wikipedia.org/wiki/Bob_Noel"/>
+        <updated>2024-05-31T02:35:08.742Z</updated>
+        <content type="html"><![CDATA[... that <b><a href="/wiki/Bob_Noel" title="Bob Noel">Bob Noel</a></b> was the one responsible for dealing "with all the dirty laundry" of the <a href="/wiki/Green_Bay_Packers" title="Green Bay Packers">Green Bay Packers</a>?]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New England Revolution manager]]></title>
+        <id>https://en.wikipedia.org/wiki/List_of_New_England_Revolution_managers</id>
+        <link href="https://en.wikipedia.org/wiki/List_of_New_England_Revolution_managers"/>
+        <updated>2024-05-31T02:35:08.742Z</updated>
+        <content type="html"><![CDATA[... that <b><a href="/wiki/List_of_New_England_Revolution_managers" title="List of New England Revolution managers">New England Revolution manager</a></b> <a href="/wiki/Bruce_Arena" title="Bruce Arena">Bruce Arena</a> led the club to a record-breaking 73 points in the <a href="/wiki/2021_New_England_Revolution_season" title="2021 New England Revolution season">2021 season</a>?]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[North West]]></title>
+        <id>https://en.wikipedia.org/wiki/North_West_(musician)</id>
+        <link href="https://en.wikipedia.org/wiki/North_West_(musician)"/>
+        <updated>2024-05-31T02:35:08.744Z</updated>
+        <content type="html"><![CDATA[... that <b><a href="/wiki/North_West_(musician)" title="North West (musician)">North West</a></b> was originally going to be called Kaidence?]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lock's Quest]]></title>
+        <id>https://en.wikipedia.org/wiki/Lock%27s_Quest</id>
+        <link href="https://en.wikipedia.org/wiki/Lock%27s_Quest"/>
+        <updated>2024-05-31T02:35:08.744Z</updated>
+        <content type="html"><![CDATA[... that <i><b><a href="/wiki/Lock%27s_Quest" title="Lock's Quest">Lock's Quest</a></b></i> was said to feature "some of the best original music in a <a href="/wiki/Nintendo_DS" title="Nintendo DS">DS</a> game"?]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[69]]></title>
+        <id>https://en.wikipedia.org/wiki/69_(number)</id>
+        <link href="https://en.wikipedia.org/wiki/69_(number)"/>
+        <updated>2024-05-31T02:35:08.745Z</updated>
+        <content type="html"><![CDATA[... that <b><a href="/wiki/69_(number)" title="69 (number)">69</a></b> is "nice"?]]></content>
+    </entry>
+</feed>
