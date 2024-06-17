@@ -42,5 +42,7 @@ for rss_file_name in data:
         fe.link(href=tweet_url)
         fe.pubDate(tweet.created_on)
 
+    # Ensure the 'public' directory exists
+    os.makedirs('public', exist_ok=True)
     # Generate the RSS XML
-    fg.rss_file(f'{rss_file_name}.xml', pretty=True)
+    fg.rss_file(f'public/{rss_file_name}.xml', pretty=True)
