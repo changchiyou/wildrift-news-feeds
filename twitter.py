@@ -2,18 +2,19 @@ import datetime
 from tweety import Twitter
 from feedgen.feed import FeedGenerator
 import toml
+import os
 
 data = toml.load('./twitter.toml')
 
 # Initialize Twitter API
 twitter = Twitter("SESSION")
-twitter.load_auth_token("22b65be15aa7a1076ece43a5cc0f5a21062bd1bb")
+twitter.load_auth_token(os.environ.get("TWITTER_AUTH_TOKEN"))
 
 for rss_file_name in data:
     username = data[rss_file_name]["username"]
 
     # Advanced Search - X/Twitter
-    today_date = datetime.datetime.now().strftime('%Y-%m-%d')
+    today_date = datetime.datetime.now().strftime(r'%Y-%m-%d')
     query = f'(from:wildrift) since:{today_date}'
     tweets = twitter.search(query)
 
