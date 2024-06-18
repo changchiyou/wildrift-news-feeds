@@ -1,24 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>wildrift-twitter</title>
-    <link>https://twitter.com/wildrift</link>
-    <description>...</description>
+    <link>https://x.com/wildrift</link>
+    <description>wildrift-twitter</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Jun 2024 02:29:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2024 03:45:17 +0000</lastBuildDate>
     <item>
-      <title>1802886957888122980</title>
-      <link>https://twitter.com/wildrift/status/1802886957888122980</link>
-      <guid isPermaLink="false">https://twitter.com/wildrift/status/1802886957888122980</guid>
+      <title>&lt;![CDATA[ @wildrift: @PapaSmoothie matchmaking mentioned 🫣 ]]&gt;</title>
+      <link>https://x.com/wildrift/status/1802886957888122980</link>
+      <description>&lt;![CDATA[ &lt;blockquote class="twitter-tweet" data-width="550"&gt;&lt;p lang="en" dir="ltr"&gt;@PapaSmoothie matchmaking mentioned 🫣&lt;/p&gt;- League of Legends: Wild Rift (@wildrift) Tue Jun 18 02:12:01 +0000 2024&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt; ]]&gt;</description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1802886957888122980</guid>
       <pubDate>Tue, 18 Jun 2024 02:12:01 +0000</pubDate>
     </item>
     <item>
-      <title>1802853832977793186</title>
-      <link>https://twitter.com/wildrift/status/1802853832977793186</link>
-      <guid isPermaLink="false">https://twitter.com/wildrift/status/1802853832977793186</guid>
+      <title>&lt;![CDATA[ @wildrift: Maokai’s saplings
+Maokai’s saplings in bushes🌱 ]]&gt;</title>
+      <link>https://x.com/wildrift/status/1802853832977793186</link>
+      <description>&lt;![CDATA[ &lt;blockquote class="twitter-tweet" data-width="550"&gt;&lt;p lang="en" dir="ltr"&gt;Maokai’s saplings
+Maokai’s saplings in bushes🌱&lt;/p&gt;- League of Legends: Wild Rift (@wildrift) Tue Jun 18 00:00:23 +0000 2024&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt; ]]&gt;</description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1802853832977793186</guid>
       <pubDate>Tue, 18 Jun 2024 00:00:23 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GQUGAgnXMAAfCh0.jpg" medium="image"/>
+      </media:group>
     </item>
   </channel>
 </rss>
