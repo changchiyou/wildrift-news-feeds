@@ -2,4 +2,3 @@ toml
 feedgen
 tweety-ns
 playwright
-jmespath
