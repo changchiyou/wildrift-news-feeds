@@ -29,7 +29,7 @@ def generate_twitter_rss():
         tweets = twitter.search(query)
 
         # Sort from old to new
-        tweets = sorted(list(tweets), key=lambda tweet: tweet.created_on, reverse=False)
+        tweets = sorted(list(tweets), key=lambda tweet: tweet.created_on, reverse=True)
 
         twitter_url = f'https://x.com/{username}'
 
