@@ -98,14 +98,14 @@ def scrape_tweet(url: str) -> dict:
         return response
 
     with sync_playwright() as pw:
-        browser = pw.firefox.launch(headless=False)
+        browser = pw.firefox.launch()
         context = browser.new_context(viewport={"width": 1920, "height": 1080})
         page = context.new_page()
 
         # enable background request intercepting:
         page.on("response", intercept_response)
         # go to url and wait for the page to load
-        page.goto(url)
+        page.goto(url, wait_until="domcontentloaded")
         page.wait_for_selector("[data-testid='tweet']")
 
         # find all tweet background requests:
