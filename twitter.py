@@ -29,7 +29,7 @@ def generate_twitter_rss():
         tweets = twitter.search(query)
 
         # Sort from old to new
-        tweets = sorted(list(tweets), key=lambda tweet: tweet.created_on, reverse=True)
+        tweets = sorted(list(tweets), key=lambda tweet: tweet.created_on, reverse=False)
 
         twitter_url = f'https://x.com/{username}'
 
@@ -74,7 +74,7 @@ def generate_twitter_rss():
                 reply_created_at = reply_scrape_result["legacy"]["created_at"]
 
                 title_prefix = f"@{reply_username}: RT by @{username}: "
-                title_content = resize_str(reply_full_text, title_prefix, DISCORD_TITLE_LENGTH_LIMIT)
+                title_content = resize_str(full_text, title_prefix, DISCORD_TITLE_LENGTH_LIMIT)
 
                 description_suffix = f"- {reply_name} (@{reply_username}) {reply_created_at}"
                 description_content = resize_str(reply_full_text, description_suffix, DISCORD_DESCRIPTION_LENGTH_LIMIT)
