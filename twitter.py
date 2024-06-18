@@ -17,6 +17,8 @@ def generate_twitter_rss():
     logging.info("twitter.load_auth_token success")
 
     xmls = []
+    DISCORD_TITLE_LENGTH_LIMIT = 256
+    DISCORD_DESCRIPTION_LENGTH_LIMIT = 2048
 
     for rss_file_name in data:
         username = data[rss_file_name]["username"]
@@ -34,12 +36,13 @@ def generate_twitter_rss():
         # Create RSS feed
         fg = FeedGenerator()
         fg.load_extension('media')
+        fg.load_extension('dc')
         fg.id(twitter_url)
-        fg.title(rss_file_name)
+        fg.title(data[rss_file_name]["rssname"])
         fg.author({'name': username, 'uri': twitter_url})
         fg.link(href=twitter_url)
         fg.language('en')
-        fg.description(rss_file_name)
+        fg.description(data[rss_file_name]["rssname"])
 
         # Add tweets to the RSS feed
         for tweet in tweets:
@@ -47,25 +50,53 @@ def generate_twitter_rss():
             tweet_url = f'https://x.com/{username}/status/{tweet.id}'
 
             scrape_result = scrape_tweet(tweet_url)
-            logging.info(f"{tweet_url} has been scrapped by `scrape_tweet`")
 
             full_text = scrape_result["legacy"]["full_text"].split("https://")[0].strip()
-            lang = scrape_result["legacy"]["lang"]
             entities = scrape_result["legacy"]["entities"]
             name = scrape_result["core"]["user_results"]["result"]["legacy"]["name"]
             created_at = scrape_result["legacy"]["created_at"]
 
-            results = {"full_text": full_text, "lang": lang, "media": entities, "name": name, "created_at": created_at}
-            logging.info(f"results: {results}")
+            in_reply_to_screen_name = scrape_result["legacy"].get("in_reply_to_screen_name")
+            in_reply_to_status_id_str = scrape_result["legacy"].get("in_reply_to_status_id_str")
+            title_prefix: str
+            title_content: str
+            description_content: str
+            description_suffix: str
+
+            if in_reply_to_screen_name and in_reply_to_status_id_str:
+                reply_to_tweet_url = f'https://x.com/{in_reply_to_screen_name}/status/{in_reply_to_status_id_str}'
+                logging.info(f"This is in response to another Twitter thread({reply_to_tweet_url}), not a standalone post of his own.")
+
+                reply_scrape_result = scrape_tweet(reply_to_tweet_url)
+                reply_full_text = reply_scrape_result["legacy"]["full_text"].split("https://")[0].strip()
+                reply_name = reply_scrape_result["core"]["user_results"]["result"]["legacy"]["name"]
+                reply_username = reply_scrape_result["core"]["user_results"]["result"]["legacy"]["screen_name"]
+                reply_created_at = reply_scrape_result["legacy"]["created_at"]
+
+                title_prefix = f"@{reply_username}: RT by @{username}: "
+                title_content = resize_str(reply_full_text, title_prefix, DISCORD_TITLE_LENGTH_LIMIT)
+
+                description_suffix = f"- {reply_name} (@{reply_username}) {reply_created_at}"
+                description_content = resize_str(reply_full_text, description_suffix, DISCORD_DESCRIPTION_LENGTH_LIMIT)
+            else:
+                title_prefix = f"@{username}: "
+                title_content = resize_str(full_text, title_prefix, DISCORD_TITLE_LENGTH_LIMIT)
+
+                description_suffix = f"- {name} (@{username}) {created_at}"
+                description_content = resize_str(full_text, description_suffix, DISCORD_DESCRIPTION_LENGTH_LIMIT)
+
+            fe.title(title_prefix + title_content)
+            fe.description(description_content + description_suffix)
 
             if entities.get("media") and entities["media"][0]["type"] == "photo":
-                fe.media.content(url=entities["media"][0]["media_url_https"], medium='image') # type: ignore
+                media_url = entities["media"][0]["media_url_https"]
+                fe.media.content(url=media_url, medium='image') # type: ignore
+                logging.info(f"Found {len(entities.get('media'))} medias, picked 1 of them: {media_url}")
 
             fe.id(tweet_url)
-            fe.title(f"<![CDATA[ @{username}: {full_text} ]]>")
-            fe.description(f'<![CDATA[ <blockquote class="twitter-tweet" data-width="550"><p lang="{lang}" dir="ltr">{full_text}</p>- {name} (@{username}) {created_at}</blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> ]]>')
             fe.link(href=tweet_url)
             fe.pubDate(tweet.created_on)
+            fe.dc.dc_creator(f"@{username}") # type: ignore
 
         # Ensure the 'public' directory exists
         os.makedirs('public', exist_ok=True)
@@ -75,11 +106,17 @@ def generate_twitter_rss():
         fg.rss_file(xml_file_name, pretty=True)
         xmls.append(xml_file_name)
 
+        logging.info(f"{xml_file_name} has been generated")
+
     logging.info("Feeds generated in `public/` folder")
 
     logging.info("They will be published at:")
     for xml in xmls:
         logging.info(f"- https://changchiyou.github.io/wildrift-news-feeds/{xml}")
+
+def resize_str(a: str, b: str, size: int):
+    """Resize a to make len(a)+len(b) <= size. If a has to be resized, add ... at the end of it."""
+    return a if len(a) + len(b) <= size else a[:size-len(b)-2]+'...'
 
 def scrape_tweet(url: str) -> dict:
     """
@@ -113,6 +150,8 @@ def scrape_tweet(url: str) -> dict:
         for xhr in tweet_calls:
             data = xhr.json()
             return data['data']['tweetResult']['result']
+
+    logging.info(f"{url} has been scrapped by `scrape_tweet`")
 
     return dict() # Would not be executed
 
