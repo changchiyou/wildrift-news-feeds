@@ -14,12 +14,12 @@ def generate_twitter_rss():
 
     # Initialize Twitter API
     twitter = Twitter("SESSION")
+    # To test in local, execute following cmd in terminal:
+    # export TWITTER_AUTH_TOKEN=<your token>
     twitter.load_auth_token(os.environ.get("TWITTER_AUTH_TOKEN"))
     logging.info("twitter.load_auth_token success")
 
     xmls = []
-    DISCORD_TITLE_LENGTH_LIMIT = 256
-    DISCORD_DESCRIPTION_LENGTH_LIMIT = 2048
 
     for rss_file_name in data:
         username = data[rss_file_name]["username"]
@@ -49,18 +49,36 @@ def generate_twitter_rss():
             fe = fg.add_entry()
             tweet_url = f'https://x.com/{username}/status/{tweet.id}'
 
-            # result = parse_tweet(scrape_tweet(tweet_url))
+            result = parse_tweet(scrape_tweet(tweet_url))
 
-            # title, description = ...
+            title = f"{result['username']} (@{result['userid']}) on X"
 
-            # fe.title(title)
-            # fe.description(description)
+            description = result["full_text"]
+            for attached_url in result["media_urls"]:
+                description = description.replace(attached_url, '')
 
-            # for media_expanded_url, media_type in zip(result["media_expanded_urls"], result["media_types"]):
-            #     if media_type == "photo":
-            #         fe.media.content(url=media_expanded_url, medium='image') # type: ignore
-            #         logging.info(f"Found image media: {media_expanded_url}")
+            for media_expanded_url, media_type, media_video_info \
+                in zip(result["media_expanded_urls"], result["media_types"], result["media_video_info"]):
+                match media_type:
+                    case "photo":
+                        fe.media.content(url=media_expanded_url, medium='image') # type: ignore
+                        logging.info(f"Found [image] media: {media_expanded_url}")
+                    case "video":
+                        if media_video_info:
+                            max_bitrate, video_url, video_type = 0, None, None
+                            for variant in media_video_info["variants"]:
+                                variant_bitrate = variant.get("bitrate", 0)
+                                if variant_bitrate > max_bitrate:
+                                    max_bitrate, video_url, video_type = variant_bitrate, variant["url"], variant["content_type"]
 
+                            fe.media.content(url=video_url, medium='video', type=video_type) # type: ignore
+                            logging.info(f"Found [video] media(bitrate:{max_bitrate}): {media_expanded_url}")
+                        else:
+                            fe.media.content(url=media_expanded_url, medium='image') # type: ignore
+                            logging.info(f"Found [video] media but only preview image: {media_expanded_url}")
+
+            fe.title(title)
+            fe.description(description)
             fe.id(tweet_url)
             fe.link(href=tweet_url)
             fe.pubDate(tweet.created_on)
@@ -98,10 +116,11 @@ def parse_tweet(data: dict) -> dict:
         media_expanded_urls: legacy.entities.media[].media_url_https,
         media_types: legacy.entities.media[].type,
         media_urls: legacy.entities.media[].url,
+        media_video_info: legacy.entities.media[].video_info,
         tagged_userids: legacy.entities.user_mentions[].screen_name,
         tagged_hashtags: legacy.entities.hashtags[].text,
         full_text: legacy.full_text,
-        lang: legacy.lang,
+        lang: legacy.lang
     }""",
         data,
     )
