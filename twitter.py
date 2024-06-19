@@ -5,6 +5,7 @@ import toml
 import os
 import logging
 from playwright.sync_api import sync_playwright
+import jmespath
 
 
 def generate_twitter_rss():
@@ -36,7 +37,6 @@ def generate_twitter_rss():
         # Create RSS feed
         fg = FeedGenerator()
         fg.load_extension('media')
-        fg.load_extension('dc')
         fg.id(twitter_url)
         fg.title(data[rss_file_name]["rssname"])
         fg.author({'name': username, 'uri': twitter_url})
@@ -49,54 +49,21 @@ def generate_twitter_rss():
             fe = fg.add_entry()
             tweet_url = f'https://x.com/{username}/status/{tweet.id}'
 
-            scrape_result = scrape_tweet(tweet_url)
+            # result = parse_tweet(scrape_tweet(tweet_url))
 
-            full_text = scrape_result["legacy"]["full_text"].split("https://")[0].strip()
-            entities = scrape_result["legacy"]["entities"]
-            name = scrape_result["core"]["user_results"]["result"]["legacy"]["name"]
-            created_at = scrape_result["legacy"]["created_at"]
+            # title, description = ...
 
-            in_reply_to_screen_name = scrape_result["legacy"].get("in_reply_to_screen_name")
-            in_reply_to_status_id_str = scrape_result["legacy"].get("in_reply_to_status_id_str")
-            title_prefix: str
-            title_content: str
-            description_content: str
-            description_suffix: str
+            # fe.title(title)
+            # fe.description(description)
 
-            if in_reply_to_screen_name and in_reply_to_status_id_str:
-                reply_to_tweet_url = f'https://x.com/{in_reply_to_screen_name}/status/{in_reply_to_status_id_str}'
-                logging.info(f"This is in response to another Twitter thread({reply_to_tweet_url}), not a standalone post of his own.")
-
-                reply_scrape_result = scrape_tweet(reply_to_tweet_url)
-                reply_full_text = reply_scrape_result["legacy"]["full_text"].split("https://")[0].strip()
-                reply_name = reply_scrape_result["core"]["user_results"]["result"]["legacy"]["name"]
-                reply_username = reply_scrape_result["core"]["user_results"]["result"]["legacy"]["screen_name"]
-                reply_created_at = reply_scrape_result["legacy"]["created_at"]
-
-                title_prefix = f"@{reply_username}: RT by @{username}: "
-                title_content = resize_str(full_text, title_prefix, DISCORD_TITLE_LENGTH_LIMIT)
-
-                description_suffix = f"- {reply_name} (@{reply_username}) {reply_created_at}"
-                description_content = resize_str(reply_full_text, description_suffix, DISCORD_DESCRIPTION_LENGTH_LIMIT)
-            else:
-                title_prefix = f"@{username}: "
-                title_content = resize_str(full_text, title_prefix, DISCORD_TITLE_LENGTH_LIMIT)
-
-                description_suffix = f"- {name} (@{username}) {created_at}"
-                description_content = resize_str(full_text, description_suffix, DISCORD_DESCRIPTION_LENGTH_LIMIT)
-
-            fe.title(title_prefix + title_content)
-            fe.description(description_content + description_suffix)
-
-            if entities.get("media") and entities["media"][0]["type"] == "photo":
-                media_url = entities["media"][0]["media_url_https"]
-                fe.media.content(url=media_url, medium='image') # type: ignore
-                logging.info(f"Found {len(entities.get('media'))} medias, picked 1 of them: {media_url}")
+            # for media_expanded_url, media_type in zip(result["media_expanded_urls"], result["media_types"]):
+            #     if media_type == "photo":
+            #         fe.media.content(url=media_expanded_url, medium='image') # type: ignore
+            #         logging.info(f"Found image media: {media_expanded_url}")
 
             fe.id(tweet_url)
             fe.link(href=tweet_url)
             fe.pubDate(tweet.created_on)
-            fe.dc.dc_creator(f"@{username}") # type: ignore
 
         # Ensure the 'public' directory exists
         os.makedirs('public', exist_ok=True)
@@ -114,9 +81,32 @@ def generate_twitter_rss():
     for xml in xmls:
         logging.info(f"- https://changchiyou.github.io/wildrift-news-feeds/{xml}")
 
-def resize_str(a: str, b: str, size: int):
-    """Resize a to make len(a)+len(b) <= size. If a has to be resized, add ... at the end of it."""
-    return a if len(a) + len(b) <= size else a[:size-len(b)-2]+'...'
+def parse_tweet(data: dict) -> dict:
+    """
+    Parse Twitter tweet JSON dataset for the most important fields.
+
+    Reference: https://scrapfly.io/blog/how-to-scrape-twitter/
+    """
+    result = jmespath.search(
+        """{
+        userid: core.user_results.result.legacy.screen_name,
+        username: core.user_results.result.legacy.name,
+        created_at: legacy.created_at,
+        attached_display_urls: legacy.entities.urls[].display_url,
+        attached_expanded_urls: legacy.entities.urls[].expanded_url,
+        attached_urls: legacy.entities.urls[].url,
+        media_expanded_urls: legacy.entities.media[].media_url_https,
+        media_types: legacy.entities.media[].type,
+        media_urls: legacy.entities.media[].url,
+        tagged_userids: legacy.entities.user_mentions[].screen_name,
+        tagged_hashtags: legacy.entities.hashtags[].text,
+        full_text: legacy.full_text,
+        lang: legacy.lang,
+    }""",
+        data,
+    )
+
+    return result
 
 def scrape_tweet(url: str) -> dict:
     """
