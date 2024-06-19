@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>League of Legends: Wild Rift (@wildrift) / Twitter</title>
     <link>https://x.com/wildrift</link>
@@ -7,16 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Jun 2024 03:11:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 03:30:06 +0000</lastBuildDate>
     <item>
-      <title>https://x.com/wildrift/status/1803246524509393199</title>
+      <title>League of Legends: Wild Rift (@wildrift) on X</title>
       <link>https://x.com/wildrift/status/1803246524509393199</link>
+      <description>The new patch is taking the Rift and its monsters to new mechanic heights ⚙️ #HexRift </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/1803246524509393199</guid>
       <pubDate>Wed, 19 Jun 2024 02:00:48 +0000</pubDate>
+      <media:group>
+        <media:content url="https://video.twimg.com/ext_tw_video/1803245241954086912/pu/vid/avc1/720x720/JkdZojel3LzF_MiR.mp4?tag=12" type="video/mp4" medium="video"/>
+      </media:group>
     </item>
     <item>
-      <title>https://x.com/wildrift/status/1803216265110053194</title>
+      <title>League of Legends: Wild Rift (@wildrift) on X</title>
       <link>https://x.com/wildrift/status/1803216265110053194</link>
+      <description>Maokai’s saplings can be used to reveal vision and poke. And they look cute while doing it! #WildRift #ThroughTheMist </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/1803216265110053194</guid>
       <pubDate>Wed, 19 Jun 2024 00:00:34 +0000</pubDate>
     </item>
