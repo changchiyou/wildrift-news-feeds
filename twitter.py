@@ -57,25 +57,16 @@ def generate_twitter_rss():
             for attached_url in result["media_urls"]:
                 description = description.replace(attached_url, '')
 
-            for media_expanded_url, media_type, media_video_info \
-                in zip(result["media_expanded_urls"], result["media_types"], result["media_video_info"]):
+            for media_expanded_url, media_type \
+                in zip(result["media_expanded_urls"], result["media_types"]):
                 match media_type:
                     case "photo":
                         fe.media.content(url=media_expanded_url, medium='image') # type: ignore
                         logging.info(f"Found [image] media: {media_expanded_url}")
                     case "video":
-                        if media_video_info:
-                            max_bitrate, video_url, video_type = 0, None, None
-                            for variant in media_video_info["variants"]:
-                                variant_bitrate = variant.get("bitrate", 0)
-                                if variant_bitrate > max_bitrate:
-                                    max_bitrate, video_url, video_type = variant_bitrate, variant["url"], variant["content_type"]
-
-                            fe.media.content(url=video_url, medium='video', type=video_type) # type: ignore
-                            logging.info(f"Found [video] media(bitrate:{max_bitrate}): {media_expanded_url}")
-                        else:
-                            fe.media.content(url=media_expanded_url, medium='image') # type: ignore
-                            logging.info(f"Found [video] media but only preview image: {media_expanded_url}")
+                        title += " (Click to watch video)"
+                        fe.media.content(url=media_expanded_url, medium='image') # type: ignore
+                        logging.info(f"Found [video] media but only embed preview image: {media_expanded_url}")
 
             fe.title(title)
             fe.description(description)
