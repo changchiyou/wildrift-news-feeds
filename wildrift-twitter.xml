@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>League of Legends: Wild Rift (@wildrift) / Twitter</title>
     <link>https://x.com/wildrift</link>
@@ -7,17 +7,12 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Jun 2024 00:43:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 01:02:00 +0000</lastBuildDate>
     <item>
-      <title>@wildrift: Maokai’s saplings can be used to reveal vision and poke. And they look cute while doing it! #WildRift #ThroughTheMist</title>
+      <title>https://x.com/wildrift/status/1803216265110053194</title>
       <link>https://x.com/wildrift/status/1803216265110053194</link>
-      <description>Maokai’s saplings can be used to reveal vision and poke. And they look cute while doing it! #WildRift #ThroughTheMist- League of Legends: Wild Rift (@wildrift) Wed Jun 19 00:00:34 +0000 2024</description>
       <guid isPermaLink="false">https://x.com/wildrift/status/1803216265110053194</guid>
       <pubDate>Wed, 19 Jun 2024 00:00:34 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GQZPotgWgAAi2X_.jpg" medium="image"/>
-      </media:group>
-      <dc:creator>@wildrift</dc:creator>
     </item>
   </channel>
 </rss>
