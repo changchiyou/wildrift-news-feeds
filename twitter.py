@@ -36,7 +36,6 @@ def generate_twitter_rss():
 
         # Create RSS feed
         fg = FeedGenerator()
-        fg.load_extension('media')
         fg.id(twitter_url)
         fg.title(data[rss_file_name]["rssname"])
         fg.author({'name': username, 'uri': twitter_url})
@@ -49,18 +48,7 @@ def generate_twitter_rss():
             fe = fg.add_entry()
             tweet_url = f'https://x.com/{username}/status/{tweet.id}'
 
-            # result = parse_tweet(scrape_tweet(tweet_url))
-
-            # title, description = ...
-
-            # fe.title(title)
-            # fe.description(description)
-
-            # for media_expanded_url, media_type in zip(result["media_expanded_urls"], result["media_types"]):
-            #     if media_type == "photo":
-            #         fe.media.content(url=media_expanded_url, medium='image') # type: ignore
-            #         logging.info(f"Found image media: {media_expanded_url}")
-
+            fe.title(tweet_url)
             fe.id(tweet_url)
             fe.link(href=tweet_url)
             fe.pubDate(tweet.created_on)
