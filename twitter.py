@@ -51,7 +51,8 @@ def generate_twitter_rss():
 
             result = parse_tweet(scrape_tweet(tweet_url))
 
-            title = f"{result['username']} (@{result['userid']}) on X"
+            reply_to = f"reply to @{result['in_reply_to_screen_name']} " if result['in_reply_to_screen_name'] else ""
+            title = f"{result['username']} (@{result['userid']}) {reply_to}on X"
 
             description = result["full_text"]
             for attached_url in result["media_urls"]:
@@ -121,7 +122,8 @@ def parse_tweet(data: dict) -> dict:
         tagged_userids: legacy.entities.user_mentions[].screen_name,
         tagged_hashtags: legacy.entities.hashtags[].text,
         full_text: legacy.full_text,
-        lang: legacy.lang
+        lang: legacy.lang,
+        in_reply_to_screen_name: legacy.in_reply_to_screen_name
     }""",
         data,
     )
