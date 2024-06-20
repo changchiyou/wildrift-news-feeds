@@ -57,16 +57,26 @@ def generate_twitter_rss():
             for attached_url in result["media_urls"]:
                 description = description.replace(attached_url, '')
 
+            media_includes = set()
             for media_expanded_url, media_type \
                 in zip(result["media_expanded_urls"], result["media_types"]):
                 match media_type:
                     case "photo":
-                        fe.media.content(url=media_expanded_url, medium='image') # type: ignore
-                        logging.info(f"Found [image] media: {media_expanded_url}")
+                        media_includes.add("🌄")
+                        medium = "image"
+                        media_found_log = "Found [image] media: "
                     case "video":
-                        title += " (Click to watch video)"
-                        fe.media.content(url=media_expanded_url, medium='image') # type: ignore
-                        logging.info(f"Found [video] media but only embed preview image: {media_expanded_url}")
+                        media_includes.add("🎬")
+                        medium = "image"
+                        media_found_log = "Found [video] media but only embed preview image: "
+                    case _:
+                        continue
+
+                fe.media.content(url=media_expanded_url, medium=medium)  # type: ignore
+                logging.info(f"{media_found_log}{media_expanded_url}")
+
+            if media_includes:
+                title += " " + "".join(media_includes)
 
             fe.title(title)
             fe.description(description)
