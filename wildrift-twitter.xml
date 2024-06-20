@@ -7,36 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Jun 2024 23:10:19 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X</title>
-      <link>https://x.com/wildrift/status/1803458266925547982</link>
-      <description>Time to try a new champ! Here’s who’s coming up on the free-to-play rotation </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1803458266925547982</guid>
-      <pubDate>Wed, 19 Jun 2024 16:02:12 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GQcrvJkXAAA0uQx.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X (Click to watch video)</title>
-      <link>https://x.com/wildrift/status/1803246524509393199</link>
-      <description>The new patch is taking the Rift and its monsters to new mechanic heights ⚙️ #HexRift </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1803246524509393199</guid>
-      <pubDate>Wed, 19 Jun 2024 02:00:48 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1803245241954086912/pu/img/Qx0I_yzAR__fE4wo.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X</title>
-      <link>https://x.com/wildrift/status/1803216265110053194</link>
-      <description>Maokai’s saplings can be used to reveal vision and poke. And they look cute while doing it! #WildRift #ThroughTheMist </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1803216265110053194</guid>
-      <pubDate>Wed, 19 Jun 2024 00:00:34 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GQZPotgWgAAi2X_.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Thu, 20 Jun 2024 00:42:30 +0000</lastBuildDate>
   </channel>
 </rss>
