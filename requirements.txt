@@ -3,3 +3,4 @@ feedgen
 tweety-ns
 playwright
 jmespath
+httpx[http2]
