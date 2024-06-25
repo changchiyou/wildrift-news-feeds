@@ -1,13 +1,13 @@
 [wildrift-news-en-us]
 title = "Wild Rift News (en-us)"
 url = "https://wildrift.leagueoflegends.com/en-us/news/"
-entrySelector = "a[data-testid='articlefeaturecard-component']"
+entrySelector = "a[data-testid='articlefeaturedcard-component']"
 titleSelector = "div[data-testid='card-title']"
 linkSelector = "*"
 
 [wildrift-news-zh-tw]
 title = "Wild Rift News (zh-tw)"
 url = "https://wildrift.leagueoflegends.com/zh-tw/news/"
-entrySelector = "a[data-testid='articlefeaturecard-component']"
+entrySelector = "a[data-testid='articlefeaturedcard-component']"
 titleSelector = "div[data-testid='card-title']"
 linkSelector = "*"
