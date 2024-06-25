@@ -5,6 +5,7 @@ entrySelector = "a[data-testid='articlefeaturedcard-component']"
 titleSelector = "div[data-testid='card-title']"
 linkSelector = "*"
 dateSelector = "div[data-testid='card-date'] > time"
+waitUntil = "load"
 
 [wildrift-news-zh-tw]
 title = "Wild Rift News (zh-tw)"
@@ -13,3 +14,4 @@ entrySelector = "a[data-testid='articlefeaturedcard-component']"
 titleSelector = "div[data-testid='card-title']"
 linkSelector = "*"
 dateSelector = "div[data-testid='card-date'] > time"
+waitUntil = "load"
