@@ -22,17 +22,19 @@ jobs:
       TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
     steps:
       - uses: actions/checkout@v4
-      - uses: microsoft/playwright-github-action@v1
-      - run: npx playwright install firefox
-      # GitHub Actions unfortunately does not support retries;
-      # this is a cumbersome method of retrying twice in case of errors:
-      - run: npx feed-me-up-scotty || npx feed-me-up-scotty || npx feed-me-up-scotty
+      - run: npx playwright install firefox --with-deps
+      - uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          command: npx feed-me-up-scotty
       - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
           # trunk-ignore(yamllint/quoted-strings)
           cache: "pip"
       - run: pip install -r requirements.txt
+      - run: playwright install firefox --with-deps
       # Check the generated XML files from feed-me-up-scotty (at least 1 entry)
       - name: Check generated XML feeds
         run: python check_feeds.py
