@@ -5,11 +5,20 @@ import glob
 def check_xml(file_path):
     tree = ET.parse(file_path)
     root = tree.getroot()
-    entries = root.findall('.//item')
-    if len(entries) == 0:
+
+    # Register namespaces to handle namespaces in the XML file
+    namespaces = {'atom': 'http://www.w3.org/2005/Atom'}
+
+    # Check for Atom <entry> elements
+    atom_entries = root.findall('.//atom:entry', namespaces)
+    # Check for RSS <item> elements
+    rss_items = root.findall('.//item')
+
+    if len(atom_entries) == 0 and len(rss_items) == 0:
         raise ValueError(f"No entries found in {file_path}")
     else:
-        print(f"{file_path} contains {len(entries)} entries.")
+        print(f"{file_path} contains {len(atom_entries)} Atom entries and {len(rss_items)} RSS items.")
+
 
 # Define the directory containing the generated XML files
 directory_path = "public/"
