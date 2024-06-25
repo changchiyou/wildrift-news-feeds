@@ -69,10 +69,10 @@ def generate_twitter_rss():
                             media_includes.add("🌄")
                             medium = "image"
                             media_found_log = "Found [image] media: "
-                        case "video":
+                        case "video"|"animated_gif":
                             media_includes.add("🎬")
                             medium = "image"
-                            media_found_log = "Found [video] media but only embed preview image: "
+                            media_found_log = f"Found [{media_type}] media but only embed preview image: "
                         case _:
                             continue
 
