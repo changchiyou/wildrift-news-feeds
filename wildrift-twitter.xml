@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Jun 2024 00:42:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jun 2024 03:15:29 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1805420717481091124</link>
+      <description>Elevate your Prestige Splendid Staff Nami with a skin border and poses and bag plenty of gifts to boot! </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1805420717481091124</guid>
+      <pubDate>Tue, 25 Jun 2024 02:00:16 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GQ4kkzQWoAA-iKH.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
