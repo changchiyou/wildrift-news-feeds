@@ -33,6 +33,9 @@ jobs:
           # trunk-ignore(yamllint/quoted-strings)
           cache: "pip"
       - run: pip install -r requirements.txt
+      # Check the generated XML files from feed-me-up-scotty (at least 1 entry)
+      - name: Check generated XML feeds
+        run: python check_feeds.py
       - name: Run twitter.py
         run: |
           python twitter.py
