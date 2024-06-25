@@ -7,16 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Jun 2024 19:08:44 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1805028161706406149</link>
-      <description>We like to charge in with Twisted Advance, followed up with Bramble Smash to CC the team. How do you like to engage with Maokai? </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1805028161706406149</guid>
-      <pubDate>Mon, 24 Jun 2024 00:00:24 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GQy_i9WXUAEmUuK.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Tue, 25 Jun 2024 00:42:00 +0000</lastBuildDate>
   </channel>
 </rss>
