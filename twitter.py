@@ -55,7 +55,7 @@ def generate_twitter_rss():
             title = f"{result['username']} (@{result['userid']}) {reply_to}on X"
 
             description = result["full_text"]
-            for attached_url in result["media_urls"]:
+            for attached_url in result.get("media_urls", []):
                 description = description.replace(attached_url, '')
 
             media_includes = set()
