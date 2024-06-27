@@ -7,42 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Jun 2024 23:10:38 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1806009927887937818</link>
-      <description>There’s a little something for everyone in this week’s free-to-play rotation. Who are you going to try out? </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1806009927887937818</guid>
-      <pubDate>Wed, 26 Jun 2024 17:01:35 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GRA8dY1XcAE4Cp2.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1805995094090125412</link>
-      <description>⚒️ Patch Notes 5.1d ⚒️ 
-
-🕹️ New Game Modes 🕹️ 
-🌊 New Skins 🌊
-🎱 New Event 🎱
-
- https://t.co/PMQMkNOdAb </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1805995094090125412</guid>
-      <pubDate>Wed, 26 Jun 2024 16:02:38 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GRAu97_WIAE_XAi.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1805752928931651593</link>
-      <description>Jungle or Support Maokai? Don't you get ‘rooted’ in indecision now! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1805752928931651593</guid>
-      <pubDate>Wed, 26 Jun 2024 00:00:22 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GQ9SuFkWsAABfTP.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Thu, 27 Jun 2024 00:43:35 +0000</lastBuildDate>
   </channel>
 </rss>
