@@ -7,22 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Jun 2024 23:15:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jun 2024 00:43:39 +0000</lastBuildDate>
     <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X</title>
-      <link>https://x.com/wildrift/status/1806145563332694253</link>
-      <description>It’s innovation season! Fresh out of Piltover’s forges, @PapaSmoothie and John present patch 5.2: Hex Rift!
-
-Coming July 18th:
-💥NEW RIFT
-👊New champions
-⚙️Lotsa Hextech!!
-
-… and more
-
-▶️ WATCH NOW: https://t.co/7ApfjBgKam</description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1806145563332694253</guid>
-      <pubDate>Thu, 27 Jun 2024 02:00:33 +0000</pubDate>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1806477760174424570</link>
+      <description>ARURF be makin’ you richhhh 🤑🤑 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1806477760174424570</guid>
+      <pubDate>Fri, 28 Jun 2024 00:00:35 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GRHl8xxWAAA8KEo.jpg" medium="image"/>
+      </media:group>
     </item>
   </channel>
 </rss>
