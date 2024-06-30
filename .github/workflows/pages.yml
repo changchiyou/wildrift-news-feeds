@@ -38,9 +38,23 @@ jobs:
       # Check the generated XML files from feed-me-up-scotty (at least 1 entry)
       - name: Check generated XML feeds
         run: python check_feeds.py
+      - name: Restore tw_session cache
+        id: cache-tw-session
+        uses: actions/cache@v3
+        with:
+          path: ./SESSION.tw_session
+          key: tw-session-${{ hashFiles('./SESSION.tw_session') }}
       - name: Run twitter.py
         run: |
           python twitter.py
+      - name: Save updated tw_session cache
+        if: always()
+        uses: actions/cache@v3
+        with:
+          path: ./SESSION.tw_session
+          key: tw-session-${{ hashFiles('./SESSION.tw_session') }}
+          restore-keys: |
+            tw-session-
       - name: Deploy to GitHub Pages
         run: |
           git config user.name $GITHUB_ACTOR
