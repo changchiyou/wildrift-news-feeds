@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-20.04
     timeout-minutes: 30
     env:
-      TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+      TWITTER_ACCOUNT_PASSWORD: ${{ secrets.TWITTER_ACCOUNT_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
       - run: npx playwright install firefox --with-deps
