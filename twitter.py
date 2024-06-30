@@ -14,10 +14,13 @@ def generate_twitter_rss():
 
     # Initialize Twitter API
     twitter = Twitter("SESSION")
+    account, password = os.environ.get("TWITTER_ACCOUNT_PASSWORD", "").split()
+    twitter.start(account, password)
+    logging.info(f"logged in as `{twitter.user}`")
     # To test in local, execute following cmd in terminal:
     # export TWITTER_AUTH_TOKEN=<your token>
-    twitter.load_auth_token(os.environ.get("TWITTER_AUTH_TOKEN"))
-    logging.info("twitter.load_auth_token success")
+    # twitter.load_auth_token(os.environ.get("TWITTER_AUTH_TOKEN"))
+    # logging.info("twitter.load_auth_token success")
 
     xmls = []
 
