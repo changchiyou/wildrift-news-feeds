@@ -43,7 +43,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ./SESSION.tw_session
-          key: tw-session-${{ github.sha }}
+          key: SESSION.tw_session
       - name: Run twitter.py
         run: |
           python twitter.py
@@ -52,7 +52,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ./SESSION.tw_session
-          key: tw-session-${{ github.sha }}
+          key: SESSION.tw_session
           restore-keys: |
             tw-session-
       - name: Deploy to GitHub Pages
