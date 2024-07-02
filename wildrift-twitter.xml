@@ -7,17 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jul 2024 23:10:42 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1807564878229467393</link>
-      <description>Soraka saw Kalista's fates in the stars. Which one would you have chosen for her?
-#WildRift #ThroughTheMist </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1807564878229467393</guid>
-      <pubDate>Mon, 01 Jul 2024 00:00:24 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GRXCrZvXsAAdG-u.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Tue, 02 Jul 2024 00:44:12 +0000</lastBuildDate>
   </channel>
 </rss>
