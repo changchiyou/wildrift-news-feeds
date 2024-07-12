@@ -7,46 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jul 2024 23:11:56 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1811521042461962639</link>
-      <description>It’s time to get down and dirty with the new creatures of the #HexRift! Better get playing on July 18th so you can hexperience them all ⚙️ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1811521042461962639</guid>
-      <pubDate>Thu, 11 Jul 2024 22:00:47 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GSPQyWNWcAIuNDA.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GSPQyXRXAAASwql.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GSPQyZIXcAAMJ_w.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GSPQyXLW4AA-w7u.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1811474343764865337</link>
-      <description>We’re on the home stretch til you get to see Hextech Mimic and Co in action! Update your game on July 18th to receive various rewards including Poro Energy! #HexRift </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1811474343764865337</guid>
-      <pubDate>Thu, 11 Jul 2024 18:55:13 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GSOmUO8WsAA-gu0.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1811249120587231723</link>
-      <description>PSSSSSST! The guest list for our exclusive garden party on July 18th is out!!!
-
-🎉 Garden Party Malphite
-🎉 Garden Party Lissandra
-🎉 Garden Party Tristana
-🎉 Garden Party Garen
-🎉 Garden Party Seraphine
-🎉 Garden Party Malphite Mythic Chroma </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1811249120587231723</guid>
-      <pubDate>Thu, 11 Jul 2024 04:00:16 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1811247871401885696/pu/img/NdWFfa1M3U1QURXW.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Fri, 12 Jul 2024 00:44:06 +0000</lastBuildDate>
   </channel>
 </rss>
