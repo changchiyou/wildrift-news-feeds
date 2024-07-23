@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jul 2024 00:45:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2024 02:00:11 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1815552408761860118</link>
+      <description>The Piltovian labs have been hextra busy cooking for you. So here’s a quick breakdown of all things new on the #HexRift ⚙️ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1815552408761860118</guid>
+      <pubDate>Tue, 23 Jul 2024 01:00:00 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/amplify_video_thumb/1813134704541151232/img/nDuJAfvFt2EU94BL.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
