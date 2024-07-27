@@ -7,26 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jul 2024 23:10:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2024 00:44:31 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1816654752630874594</link>
-      <description>Don’t be left out and come discover the new Rift ⚙️ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1816654752630874594</guid>
-      <pubDate>Fri, 26 Jul 2024 02:00:19 +0000</pubDate>
+      <link>https://x.com/wildrift/status/1816986954652622941</link>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1816986954652622941</guid>
+      <pubDate>Sat, 27 Jul 2024 00:00:22 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/GTYN3sVWEAASnEO.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1816624557253443763</link>
-      <description>Slay the Baron and get your gift at the base!
-Are you ready to unbox it? #HexRift </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1816624557253443763</guid>
-      <pubDate>Fri, 26 Jul 2024 00:00:20 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/tweet_video_thumb/GTXyaF1W4AAONcq.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GTc8AcHWQAAThRV.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
