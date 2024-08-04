@@ -7,30 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Aug 2024 23:11:15 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1819561379163934827</link>
-      <description>Putting the fashion back in fashionably late 🌹 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1819561379163934827</guid>
-      <pubDate>Sat, 03 Aug 2024 02:30:13 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GUBhbpxXkAAVbAJ.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GUBhbp1WkAEHarY.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1819553840242254237</link>
-      <description>We’re rolling out the crystal carpet for our newest guests of this year’s festival 🌹 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1819553840242254237</guid>
-      <pubDate>Sat, 03 Aug 2024 02:00:15 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GUBakzVXAAAL1Xq.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GUBakzhXcAAHkNE.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GUBakyPXsAANVAl.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GUBakzBWsAAMLXd.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Sun, 04 Aug 2024 00:50:01 +0000</lastBuildDate>
   </channel>
 </rss>
