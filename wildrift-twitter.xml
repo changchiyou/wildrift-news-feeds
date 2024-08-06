@@ -7,16 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Aug 2024 23:12:02 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1820248422303006977</link>
-      <description>How I be avoiding my problems </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1820248422303006977</guid>
-      <pubDate>Mon, 05 Aug 2024 00:00:17 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/tweet_video_thumb/GULSSzBXQAAUQp5.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Tue, 06 Aug 2024 00:45:31 +0000</lastBuildDate>
   </channel>
 </rss>
