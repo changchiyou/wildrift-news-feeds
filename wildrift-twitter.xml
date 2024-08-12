@@ -7,14 +7,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Aug 2024 23:10:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2024 00:47:52 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1822422843826602423</link>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1822422843826602423</guid>
-      <pubDate>Sun, 11 Aug 2024 00:00:39 +0000</pubDate>
+      <link>https://x.com/wildrift/status/1822785238755365103</link>
+      <description>9.79 seconds seems doable on the Rift! Who would your podium for the 100m dash be? </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1822785238755365103</guid>
+      <pubDate>Mon, 12 Aug 2024 00:00:41 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/GUqL60BXUAEa-JB.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GUvVg_lWoAA-p1r.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
