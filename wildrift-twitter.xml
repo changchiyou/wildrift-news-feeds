@@ -7,6 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Aug 2024 00:46:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 02:02:43 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1823540092394193033</link>
+      <description>Need a little night light to guide you maybe? We don’t blame you…
+
+Mordekaiser
+🌑 Old God Mordekaiser
+🌑 Coven Morgana
+🌑 Coven Nilah </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1823540092394193033</guid>
+      <pubDate>Wed, 14 Aug 2024 02:00:12 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1823538842227351553/pu/img/-TT_3fv1m7sw_jSU.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
