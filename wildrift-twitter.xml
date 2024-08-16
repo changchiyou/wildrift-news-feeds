@@ -7,17 +7,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Aug 2024 23:09:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2024 00:45:27 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1823902549130305623</link>
-      <description>These three are unleashing powers long forgotten and probably some nightmare as well… </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1823902549130305623</guid>
-      <pubDate>Thu, 15 Aug 2024 02:00:28 +0000</pubDate>
+      <link>https://x.com/wildrift/status/1824234771238559808</link>
+      <description>Am I right or am I right?! </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1824234771238559808</guid>
+      <pubDate>Fri, 16 Aug 2024 00:00:36 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/GU_Ns83XYAAl7RT.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GU_Ns8sW8AA4Wir.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GU_Ns-YWQAAm1MJ.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GVD724xWAAAgXkV.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
