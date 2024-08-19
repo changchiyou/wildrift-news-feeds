@@ -1,3 +1,4 @@
 public
 SESSION.tw_session
 *.xml
+.DS_Store
