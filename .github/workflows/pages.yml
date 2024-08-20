@@ -20,6 +20,7 @@ jobs:
     timeout-minutes: 30
     env:
       TWITTER_ACCOUNT_PASSWORD: ${{ secrets.TWITTER_ACCOUNT_PASSWORD }}
+      TWITTER_COOKIE_VALUE: ${{ secrets.TWITTER_COOKIE_VALUE }}
     steps:
       - uses: actions/checkout@v4
       - run: npx playwright install firefox --with-deps
