@@ -14,9 +14,18 @@ def generate_twitter_rss():
 
     # Initialize Twitter API
     twitter = Twitter("SESSION")
-    account, password, extra = os.environ.get("TWITTER_ACCOUNT_PASSWORD", "").split()
-    twitter.start(account, password, extra=extra)
-    logging.info(f"logged in as `{twitter.user}`")
+
+    # Singing In using Credentials
+    # account, password, extra = os.environ.get("TWITTER_ACCOUNT_PASSWORD", "").split()
+    # twitter.start(account, password, extra=extra)
+    # logging.info(f"logged in as `{twitter.user}`")
+
+    # Singing In using Cookies
+    # chrome-extension://fngmhnnpilhplaeedifhccceomclgfbg/options_pages/user_preferences.html
+    # setting -> option -> export format: Semicolon separated name=value pairs
+    cookie_value = os.environ.get("TWITTER_COOKIE_VALUE", "")
+    twitter.load_cookies(cookie_value)
+
     # To test in local, execute following cmd in terminal:
     # export TWITTER_AUTH_TOKEN=<your token>
     # twitter.load_auth_token(os.environ.get("TWITTER_AUTH_TOKEN"))
