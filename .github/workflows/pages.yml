@@ -44,9 +44,9 @@ jobs:
         with:
           path: ./SESSION.tw_session
           key: SESSION.tw_session
-      # - name: Run twitter.py
-      #   run: |
-      #     python twitter.py
+      - name: Run twitter.py
+        run: |
+          python twitter.py
       - name: Save updated tw_session cache
         if: always()
         uses: actions/cache@v3
