@@ -7,6 +7,27 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Aug 2024 00:45:26 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2024 02:01:56 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1826076823135883600</link>
+      <description>Look like a champ in battle with these skins 🏆 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1826076823135883600</guid>
+      <pubDate>Wed, 21 Aug 2024 02:00:16 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GVeHMRxWoAAkPL2.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GVeHMTzXUAAHl5r.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1826061761675497629</link>
+      <description>Chroma Skins fashion show on the Rift! 🎟️ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1826061761675497629</guid>
+      <pubDate>Wed, 21 Aug 2024 01:00:25 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1826060488515465216/pu/img/jpivHzMynkBww7xK.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
