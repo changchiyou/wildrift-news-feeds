@@ -7,35 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Aug 2024 23:10:20 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1826439183176515992</link>
-      <description>He might be twice slain, but this warlord is sure to pay it back tenfold starting August 23rd UTC! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1826439183176515992</guid>
-      <pubDate>Thu, 22 Aug 2024 02:00:09 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1826438016912560129/pu/img/Pqyl3pr5L-lXgMqO.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1826424110458548674</link>
-      <description>Ready? Set. Action! 📸📸📸 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1826424110458548674</guid>
-      <pubDate>Thu, 22 Aug 2024 01:00:15 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1826422864158789632/pu/img/Z-Pk6xzc2hVImhB5.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X</title>
-      <link>https://x.com/wildrift/status/1826409287931101693</link>
-      <description>Hi friends, We’re rolling out 2 updates to improve your Hexrift experience.
--T-Hex Mecha: the player riding the Mecha will have their champion icon added beside the T-Hex Mecha health bar.
--Hextech Toolkit: animation adjustment so it’s clearer when the Toolkit is ready to be</description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1826409287931101693</guid>
-      <pubDate>Thu, 22 Aug 2024 00:01:21 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 23 Aug 2024 00:45:45 +0000</lastBuildDate>
   </channel>
 </rss>
