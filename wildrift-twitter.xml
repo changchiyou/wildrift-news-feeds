@@ -7,6 +7,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Aug 2024 02:04:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2024 03:12:25 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1828266211169140933</link>
+      <description>Look like an MVP when you get that MVP with Fiora and don’t miss out on our second Wild Pass of the season!
+
+🏆 KBG Fiora
+🏆 KBG Fiora Mythic Chroma
+💕 Elderwood Rakan </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1828266211169140933</guid>
+      <pubDate>Tue, 27 Aug 2024 03:00:06 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1828264976357736449/pu/img/MDGzZh8ymxTowXIl.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
