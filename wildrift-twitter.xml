@@ -7,39 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Sep 2024 23:11:07 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1834441945508126959</link>
-      <description>2024 WILD ROUNDS: SMASH is just around the corner. Get down with the rules and get involved 👊 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1834441945508126959</guid>
-      <pubDate>Fri, 13 Sep 2024 04:00:16 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GXU_OLyW4AAmLiH.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GXU_OL2WgAA3lDp.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GXU_OSXWUAAIDvN.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GXU_OL5WYAAeYSR.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1834426860278616079</link>
-      <description>We’re going wild in our first cross-regional tournament. Make the rounds starting September 20th! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1834426860278616079</guid>
-      <pubDate>Fri, 13 Sep 2024 03:00:20 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GXUxgYfWMAAmJAe.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1834381578539094314</link>
-      <description>🎮🕹Let's celebrate National Video Game Day with a round of Wild Rift today! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1834381578539094314</guid>
-      <pubDate>Fri, 13 Sep 2024 00:00:24 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GXUIUazW8AAl12V.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Sat, 14 Sep 2024 00:48:39 +0000</lastBuildDate>
   </channel>
 </rss>
