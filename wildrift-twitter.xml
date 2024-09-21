@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Sep 2024 09:10:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2024 10:11:00 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1837427501213405582</link>
+      <description>What a fierce battle for our inaugural WILD ROUNDS: SMASH 5v5! Congratulations to our Pro Track winners 🏆 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1837427501213405582</guid>
+      <pubDate>Sat, 21 Sep 2024 09:43:48 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GX_akUqb0AAeOEr.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
