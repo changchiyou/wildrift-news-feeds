@@ -7,16 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Sep 2024 23:12:29 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1839122722116481137</link>
-      <description>Final patch of the season means final season of Arcane and final chance to celebrate! David, John, and some special guests take you along for the Ultimate Arc in patch 5.3! Coming to you on October 17th UTC! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1839122722116481137</guid>
-      <pubDate>Thu, 26 Sep 2024 02:00:00 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/amplify_video_thumb/1836642364515065856/img/x6i65oQ54JtE5H93.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Fri, 27 Sep 2024 00:52:24 +0000</lastBuildDate>
   </channel>
 </rss>
