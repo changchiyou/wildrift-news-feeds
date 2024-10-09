@@ -7,6 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Oct 2024 00:52:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2024 02:13:39 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1843833834007122012</link>
+      <description>The Poros are throwing the biggest bash of 2024 on October 17th! And it comes with gifts 🎁 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1843833834007122012</guid>
+      <pubDate>Wed, 09 Oct 2024 02:00:17 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GZadF1-WUAAfkiF.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1843818761620447632</link>
+      <description>Take an exclusive look into the heart of Firelight’s Hideout in our Arcane narrative event! </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1843818761620447632</guid>
+      <pubDate>Wed, 09 Oct 2024 01:00:23 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GZaPZGaXQAAGEJr.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
