@@ -7,42 +7,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Oct 2024 23:11:12 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1844920931296149634</link>
-      <description>Look to the stars to protect your team and humanity on October 17th!
-
-🌠Prestige Stargazer Talon
-🌠Stargazer Talon
-🌠Stargazer Gwen
-🌠Stargazer Sona </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1844920931296149634</guid>
-      <pubDate>Sat, 12 Oct 2024 02:00:01 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1844919727015010309/pu/img/1tXAA5MLi5HapwSQ.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Sun, 13 Oct 2024 00:56:36 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1844905881571336597</link>
-      <description>The human fate is in safe hands (and daggers)! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1844905881571336597</guid>
-      <pubDate>Sat, 12 Oct 2024 01:00:13 +0000</pubDate>
+      <link>https://x.com/wildrift/status/1845253201513124178</link>
+      <description>Here are all the rewards up for grabs by updating to the new patch and taking part in our anniversary events. Look to our patch notes for further details! </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1845253201513124178</guid>
+      <pubDate>Sun, 13 Oct 2024 00:00:21 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/GZpsH3CXoAEeCU9.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1844890819284639804</link>
-      <description>Your victory is written in the stars with these new skins 🌠 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1844890819284639804</guid>
-      <pubDate>Sat, 12 Oct 2024 00:00:22 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GZpealqX0A0MBhE.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GZpeamFWoA8mP3v.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GZpeapLXEAAxpxt.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GZuoAdHXYBIsApX.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
