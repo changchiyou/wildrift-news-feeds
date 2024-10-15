@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Oct 2024 00:52:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2024 02:15:41 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1845992994115408012</link>
+      <description>The biggest anniversary comes with the biggest gifts. Don’t miss out on free skins and bucket loads of goodies! Coming to you on October 17th UTC. </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1845992994115408012</guid>
+      <pubDate>Tue, 15 Oct 2024 01:00:01 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/amplify_video_thumb/1845875800975069186/img/lCWYnnWajA4YJOzc.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
