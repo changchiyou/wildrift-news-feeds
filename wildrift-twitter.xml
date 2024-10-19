@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Oct 2024 22:12:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Oct 2024 23:12:02 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1847774793774297543</link>
+      <description>The Poros sure know how to throw a party! Can you find all the invitees? </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1847774793774297543</guid>
+      <pubDate>Sat, 19 Oct 2024 23:00:15 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GaSdYeXXAAAy3UI.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
