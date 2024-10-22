@@ -7,13 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Oct 2024 23:11:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 00:53:38 +0000</lastBuildDate>
     <item>
-      <title>League of Legends: Wild Rift (@wildrift) reply to @wildrift on X</title>
-      <link>https://x.com/wildrift/status/1848402901385023612</link>
-      <description>We're aware of some bugs with the event and are working to fix them ASAP. We'll let you know as soon as it's back up. Thanks for your patience!</description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1848402901385023612</guid>
-      <pubDate>Mon, 21 Oct 2024 16:36:08 +0000</pubDate>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1848514681939353856</link>
+      <description>What does YOUR search history look like?! 😜 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1848514681939353856</guid>
+      <pubDate>Tue, 22 Oct 2024 00:00:18 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/Gac-TuFW0AAWwzJ.jpg" medium="image"/>
+      </media:group>
     </item>
   </channel>
 </rss>
