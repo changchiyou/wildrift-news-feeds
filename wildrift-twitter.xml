@@ -7,38 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 Nov 2024 23:12:01 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1856744378372341996</link>
-      <description>⚒️ Patch Notes 5.3b ⚒️ 
-🎮 New mode 🎮 
-🎫 New event 🎫
-❓ A secret third thing ❓ (coming next week)
-
-https://t.co/j9Wg2IP5no </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1856744378372341996</guid>
-      <pubDate>Wed, 13 Nov 2024 17:02:11 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GcR7LFVXsAAU9Hq.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) reply to @MaximilianRos12 on X</title>
-      <link>https://x.com/wildrift/status/1856594367676592612</link>
-      <description>@MaximilianRos12 Good job🥳</description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1856594367676592612</guid>
-      <pubDate>Wed, 13 Nov 2024 07:06:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1856517446573650360</link>
-      <description>What’s your play style? You in it to kill it 💥⚔️ or dance around the battles 💪🕺 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1856517446573650360</guid>
-      <pubDate>Wed, 13 Nov 2024 02:00:26 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GcOsx5AWkAAIxca.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Thu, 14 Nov 2024 00:52:38 +0000</lastBuildDate>
   </channel>
 </rss>
