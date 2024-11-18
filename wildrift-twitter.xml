@@ -7,26 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Nov 2024 23:11:47 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1857966951554748875</link>
-      <description>The epic saga continues in Act 2! What’s been the biggest surprise so far and whose ultimate story can’t you wait to see unfold? </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1857966951554748875</guid>
-      <pubDate>Sun, 17 Nov 2024 02:00:15 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GcjTGKwWUAATsu-.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1857936799206617242</link>
-      <description>In the past 4 years, we now have over 100 available champions! Tell us your favourites?🤩 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1857936799206617242</guid>
-      <pubDate>Sun, 17 Nov 2024 00:00:26 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/tweet_video_thumb/Gci3rC6WQAAu-0K.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Mon, 18 Nov 2024 00:56:59 +0000</lastBuildDate>
   </channel>
 </rss>
