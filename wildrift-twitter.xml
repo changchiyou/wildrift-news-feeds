@@ -7,15 +7,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Nov 2024 20:13:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2024 09:12:57 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1858691720717726186</link>
-      <description>Pentakill? Yes please! Can’t wait to hear about your first time 😜 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1858691720717726186</guid>
-      <pubDate>Tue, 19 Nov 2024 02:00:13 +0000</pubDate>
+      <link>https://x.com/wildrift/status/1859054117135450170</link>
+      <description>🔥🔥 Ambessa’s Cunning Sweep/Sundering Slam surely has the highest priority! But which one’s second? 🤔️ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1859054117135450170</guid>
+      <pubDate>Wed, 20 Nov 2024 02:00:15 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/GctmRVPW8AAtYA4.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/Gcyv3iMWAAA_WHg.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1859023856427499866</link>
+      <description>Uncage the true wrath of Zaun with Warwick's new rework! Hitting the Rift on November 19th UTC! </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1859023856427499866</guid>
+      <pubDate>Wed, 20 Nov 2024 00:00:01 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/amplify_video_thumb/1856265837788966915/img/-29T5GyISA7Rl6kt.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
