@@ -1,19 +1,19 @@
 import datetime
-from tweety import Twitter
+from tweety import TwitterAsync
 from feedgen.feed import FeedGenerator
 import toml
 import os
 import logging
-from playwright.sync_api import sync_playwright
+from playwright.async_api import async_playwright
 import jmespath
+import asyncio
 
-
-def generate_twitter_rss():
+async def generate_twitter_rss():
     data = toml.load('./twitter.toml')
     logging.info("`./twitter.toml` loaded successfully")
 
     # Initialize Twitter API
-    twitter = Twitter("SESSION")
+    twitter = TwitterAsync("SESSION")
 
     # Singing In using Credentials
     # account, password, extra = os.environ.get("TWITTER_ACCOUNT_PASSWORD", "").split()
@@ -21,10 +21,10 @@ def generate_twitter_rss():
     # logging.info(f"logged in as `{twitter.user}`")
 
     # Singing In using Cookies
-    # chrome-extension://fngmhnnpilhplaeedifhccceomclgfbg/options_pages/user_preferences.html
-    # setting -> option -> export format: Semicolon separated name=value pairs
+    # https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?utm_campaign=cgagnier.ca
+    # Export -> Header String
     cookie_value = os.environ.get("TWITTER_COOKIE_VALUE", "")
-    twitter.load_cookies(cookie_value)
+    await twitter.load_cookies(cookie_value)
 
     # To test in local, execute following cmd in terminal:
     # export TWITTER_AUTH_TOKEN=<your token>
@@ -39,7 +39,7 @@ def generate_twitter_rss():
         # Advanced Search - X/Twitter
         today_date = datetime.datetime.now().strftime(r'%Y-%m-%d')
         query = f'(from:wildrift) since:{today_date}'
-        tweets = twitter.search(query)
+        tweets = await twitter.search(query)
 
         # Sort from old to new
         tweets = sorted(list(tweets), key=lambda tweet: tweet.created_on, reverse=False)
@@ -61,7 +61,7 @@ def generate_twitter_rss():
             fe = fg.add_entry()
             tweet_url = f'https://x.com/{username}/status/{tweet.id}'
 
-            result = parse_tweet(scrape_tweet(tweet_url))
+            result = parse_tweet(await scrape_tweet(tweet_url))
 
             reply_to = f"reply to @{result['in_reply_to_screen_name']} " if result['in_reply_to_screen_name'] else ""
             title = f"{result['username']} (@{result['userid']}) {reply_to}on X"
@@ -145,7 +145,7 @@ def parse_tweet(data: dict) -> dict:
 
     return result
 
-def scrape_tweet(url: str) -> dict:
+async def scrape_tweet(url: str) -> dict:
     """
     Scrape a single tweet page for Tweet thread e.g.:
     Return parent tweet, reply tweets and recommended tweets
@@ -161,10 +161,10 @@ def scrape_tweet(url: str) -> dict:
             _xhr_calls.append(response)
         return response
 
-    with sync_playwright() as pw:
-        browser = pw.firefox.launch()
-        context = browser.new_context(viewport={"width": 1920, "height": 1080})
-        page = context.new_page()
+    async with async_playwright() as pw:
+        browser = await pw.firefox.launch()
+        context = await browser.new_context(viewport={"width": 1920, "height": 1080})
+        page = await context.new_page()
 
         # enable background request intercepting:
         page.on("response", intercept_response)
@@ -184,4 +184,4 @@ def scrape_tweet(url: str) -> dict:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s')
-    generate_twitter_rss()
+    asyncio.run(generate_twitter_rss())
