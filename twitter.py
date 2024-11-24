@@ -169,13 +169,13 @@ async def scrape_tweet(url: str) -> dict:
         # enable background request intercepting:
         page.on("response", intercept_response)
         # go to url and wait for the page to load
-        page.goto(url, wait_until="domcontentloaded")
-        page.wait_for_selector("[data-testid='tweet']")
+        await page.goto(url, wait_until="domcontentloaded")
+        await page.wait_for_selector("[data-testid='tweet']")
 
         # find all tweet background requests:
         tweet_calls = [f for f in _xhr_calls if "TweetResultByRestId" in f.url]
         for xhr in tweet_calls:
-            data = xhr.json()
+            data = await xhr.json()
             return data['data']['tweetResult']['result']
 
     logging.info(f"{url} has been scrapped by `scrape_tweet`")
