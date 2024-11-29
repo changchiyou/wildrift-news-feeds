@@ -38,7 +38,7 @@ async def generate_twitter_rss():
 
         # Advanced Search - X/Twitter
         today_date = datetime.datetime.now().strftime(r'%Y-%m-%d')
-        query = f'(from:wildrift) since:{today_date}'
+        query = f'(from:{username}) since:{today_date}'
         tweets = await twitter.search(query)
 
         # Sort from old to new
