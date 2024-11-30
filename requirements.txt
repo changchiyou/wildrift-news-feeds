@@ -1,6 +1,6 @@
 toml
 feedgen
-tweety-ns @ git+https://github.com/changchiyou/tweety@e9e7023
+tweety-ns @ git+https://github.com/changchiyou/tweety@2298e348c0bb09f97a35b4b8cf82851d2d83e52d
 playwright
 jmespath
 httpx[http2]
