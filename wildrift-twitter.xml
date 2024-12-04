@@ -7,26 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Dec 2024 23:12:21 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1863765165600047529</link>
-      <description>JUST IN–the weather forecast for the Rift: storm Winterblessed Diana is bringing high chances of heavy snowfall and strong winds with her ❄️🌬️ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1863765165600047529</guid>
-      <pubDate>Tue, 03 Dec 2024 02:00:17 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/Gd1sircXoAArLyT.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1863734959711694890</link>
-      <description>The last month is chock-full of events! Don’t let them melt away from December 6th until January 8th UTC! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1863734959711694890</guid>
-      <pubDate>Tue, 03 Dec 2024 00:00:15 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/Gd1REcZXUAE1I19.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Wed, 04 Dec 2024 00:58:18 +0000</lastBuildDate>
   </channel>
 </rss>
