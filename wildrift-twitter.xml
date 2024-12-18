@@ -7,30 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Dec 2024 23:11:31 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1868823595146711129</link>
-      <description>This dark duo will snuff out all opponents on their road to nothingness 🌑 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1868823595146711129</guid>
-      <pubDate>Tue, 17 Dec 2024 01:00:40 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/Ge9lJp_WQAA2v18.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/Ge9lJsxXIAAAAb6.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1868808488840810991</link>
-      <description>Shroud your enemies in star-consuming emptiness on December 19th!
-
-🌑 Dark Star Thresh
-🌑 Dark Star Karma </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1868808488840810991</guid>
-      <pubDate>Tue, 17 Dec 2024 00:00:39 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1868807406282481664/pu/img/jr2Il9P0gEDaq9Av.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Wed, 18 Dec 2024 00:55:36 +0000</lastBuildDate>
   </channel>
 </rss>
