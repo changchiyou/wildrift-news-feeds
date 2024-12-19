@@ -7,18 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Dec 2024 23:11:57 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1869185963722748014</link>
-      <description>Two presents, one stone! Team up with your friends to double the fun and snag the final rewards!
-Comment your game screenshot and UID to get a chance at the special icon! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1869185963722748014</guid>
-      <pubDate>Wed, 18 Dec 2024 01:00:36 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GfCuuoZWYAAC61F.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GfCuuoeXwAAgyYv.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Thu, 19 Dec 2024 00:55:54 +0000</lastBuildDate>
   </channel>
 </rss>
