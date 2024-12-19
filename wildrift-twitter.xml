@@ -7,6 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Dec 2024 00:55:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2024 02:20:26 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1869563434620064224</link>
+      <description>Want a personalized poro of your own? Now's your chance— #PaintYourPoro !
+Color in a poro and post it with the tag #PaintYourPoro to join the event! </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1869563434620064224</guid>
+      <pubDate>Thu, 19 Dec 2024 02:00:32 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GfIGCWuWoAIGO8o.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GfIGCWjW4AAE5N3.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
