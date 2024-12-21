@@ -7,26 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Dec 2024 23:11:04 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1869910671778873458</link>
-      <description>We’ve brewed up a new concoction for #Singed. Are you brave enough to try it on December 19th UTC?! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1869910671778873458</guid>
-      <pubDate>Fri, 20 Dec 2024 01:00:20 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1869909522518507520/pu/img/Ut8kMEsq6i7Az4B0.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1869895728803307548</link>
-      <description>This is one high horse we don’t mind sitting on 🤠 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1869895728803307548</guid>
-      <pubDate>Fri, 20 Dec 2024 00:00:57 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GfM0QUkXsAAozye.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Sat, 21 Dec 2024 00:52:20 +0000</lastBuildDate>
   </channel>
 </rss>
