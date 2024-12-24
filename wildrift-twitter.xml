@@ -7,28 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Dec 2024 23:11:20 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1871012890695684264</link>
-      <description>It’s a poros’ world and we’re just living in it. Take a screenshot to see which one you are! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1871012890695684264</guid>
-      <pubDate>Mon, 23 Dec 2024 02:00:09 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1871011719960526848/pu/img/dyBeMcuiB5VOQ0qW.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1870997859379601764</link>
-      <description>The more friends the happier the poros! Don’t leave them hanging and get your friends together to play and get your final rewards!
-Comment your game screenshot and UID to get a chance at the special icon! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1870997859379601764</guid>
-      <pubDate>Mon, 23 Dec 2024 01:00:25 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/Gfceo0sWYAAmtBH.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/Gfceo1nW0AEH96c.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Tue, 24 Dec 2024 00:53:30 +0000</lastBuildDate>
   </channel>
 </rss>
