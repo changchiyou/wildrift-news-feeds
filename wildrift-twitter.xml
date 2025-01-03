@@ -7,6 +7,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jan 2025 00:53:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2025 02:14:12 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1874999224401604759</link>
+      <description>Witness the colors and performances of a lifetime with our new exclusive skin line 🎭🎨 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1874999224401604759</guid>
+      <pubDate>Fri, 03 Jan 2025 02:00:25 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GgVV2syWkAExE7s.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GgVV2vDXsAA5DA5.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GgVV2u6WwAIpszP.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1874984118410252306</link>
+      <description>WHO NEEDS PLANS? I DO WHAT I LOVE AND IT ALWAYS WORKS OUT! #LETSYORDLE </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1874984118410252306</guid>
+      <pubDate>Fri, 03 Jan 2025 01:00:24 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GgVIHrGWQAAxANt.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
