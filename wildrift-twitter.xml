@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jan 2025 00:53:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2025 02:13:37 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1876811130133189069</link>
+      <description>Patch 6.0 is bursting with new features and rewards, so be sure to check out all of them to not miss out ⚡ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1876811130133189069</guid>
+      <pubDate>Wed, 08 Jan 2025 02:00:17 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GgvFxqoXAAAgboz.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
