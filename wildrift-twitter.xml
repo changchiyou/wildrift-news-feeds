@@ -7,38 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jan 2025 23:11:27 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1877037951009382561</link>
-      <description>⚒️ Patch Notes 6.0 ⚒️ 
- 🔧 New Champion 🔧 
- 🌠 New Skins 🌠
- ⚙️ New Items ⚙️
-
-https://t.co/Gr5wC5g5h7 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1877037951009382561</guid>
-      <pubDate>Wed, 08 Jan 2025 17:01:35 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GgyUEc4XMAAPpXk.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X</title>
-      <link>https://x.com/wildrift/status/1876826465364533346</link>
-      <description>https://t.co/NurOq2PUfx</description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1876826465364533346</guid>
-      <pubDate>Wed, 08 Jan 2025 03:01:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1876811130133189069</link>
-      <description>Patch 6.0 is bursting with new features and rewards, so be sure to check out all of them to not miss out ⚡ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1876811130133189069</guid>
-      <pubDate>Wed, 08 Jan 2025 02:00:17 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GgvFxqoXAAAgboz.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Thu, 09 Jan 2025 00:53:19 +0000</lastBuildDate>
   </channel>
 </rss>
