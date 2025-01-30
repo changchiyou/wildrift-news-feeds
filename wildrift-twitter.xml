@@ -7,16 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jan 2025 23:10:57 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1884421209808351452</link>
-      <description>Battle has never been this elegant! Come experience the charm of the Celestial Embroidery skins 🧵🪡 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1884421209808351452</guid>
-      <pubDate>Wed, 29 Jan 2025 02:00:01 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1884420084002680832/pu/img/0EhFpM9Y3gRMxuf2.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Thu, 30 Jan 2025 00:51:06 +0000</lastBuildDate>
   </channel>
 </rss>
