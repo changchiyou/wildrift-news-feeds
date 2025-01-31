@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jan 2025 00:52:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2025 02:10:02 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1885146073842287021</link>
+      <description>WOAH, Unbound Frenzy is coming in strong! Buffs all around, but do you know who these belong to? </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1885146073842287021</guid>
+      <pubDate>Fri, 31 Jan 2025 02:00:22 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GiliXRiW0AAakss.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
