@@ -7,28 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jan 2025 23:12:10 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1884798752998723753</link>
-      <description>Watch where you go 🔥🔥🔥 Looks like Rumble is on the loose, but which one is his doing? </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1884798752998723753</guid>
-      <pubDate>Thu, 30 Jan 2025 03:00:15 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/Gigmeh-W4AIvyJV.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1884783690460385387</link>
-      <description>Be coded for victory in your next battle or take over like a virus 👾 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1884783690460385387</guid>
-      <pubDate>Thu, 30 Jan 2025 02:00:24 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GigYx00WAAAE7zw.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GigYx0EXkAADVCS.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GigYxzuW0AAlSiy.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Fri, 31 Jan 2025 00:52:30 +0000</lastBuildDate>
   </channel>
 </rss>
