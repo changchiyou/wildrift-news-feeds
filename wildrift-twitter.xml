@@ -7,6 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Feb 2025 00:56:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 02:14:12 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1885508468695609667</link>
+      <description>The yordles have run rampant and gotten their names all jumbled up. How many can you find? </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1885508468695609667</guid>
+      <pubDate>Sat, 01 Feb 2025 02:00:24 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/Giqr9cRWAAA6T7V.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1885493399475642701</link>
+      <description>Want to know more about how we design the Embroidery Skin? Check this out! 😎😎😎 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1885493399475642701</guid>
+      <pubDate>Sat, 01 Feb 2025 01:00:31 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1885492086423552000/pu/img/E_g1S3Wa479Ta64F.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
