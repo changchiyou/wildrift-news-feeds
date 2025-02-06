@@ -7,6 +7,31 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Feb 2025 00:52:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2025 02:12:06 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1887320364226621717</link>
+      <description>This capybara needs a new skin 🎨🖌️
+Post your work with the tag #WRCapybara to join the event! </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1887320364226621717</guid>
+      <pubDate>Thu, 06 Feb 2025 02:00:14 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GjEb3s2XYAAzgsQ.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1887305232511606794</link>
+      <description>Augment your next battle with these advanced and mechanically boosted skins on February 7th UTC!
+
+🦾PROJECT: Darius
+🦾PROJECT: Mordekaiser
+🦾PROJECT: Twitch </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1887305232511606794</guid>
+      <pubDate>Thu, 06 Feb 2025 01:00:06 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1887304039169236992/pu/img/OtspwAFgxvtnZewm.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
