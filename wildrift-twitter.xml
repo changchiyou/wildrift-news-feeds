@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Feb 2025 00:56:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2025 02:15:38 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1888392425208467573</link>
+      <description>Lulu’s magic knows no bounds. If she could give you any champ’s ability, which one would you pick? ✨️ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1888392425208467573</guid>
+      <pubDate>Sun, 09 Feb 2025 01:00:13 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GjTq5y8XIAAck2x.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
