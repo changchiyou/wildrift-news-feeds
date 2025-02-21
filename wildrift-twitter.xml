@@ -7,27 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Feb 2025 23:12:06 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1892393854747242927</link>
-      <description>League of Legends: Wild Rift is Game of the Day for February 19, 2025 on the @AppStore in two countries or regions.  #OnTheAppStore </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1892393854747242927</guid>
-      <pubDate>Thu, 20 Feb 2025 02:00:28 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GkMiLrEWYAAJxRb.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1892378741889765391</link>
-      <description>Get ready to blast off with Super Galaxy Gnar! Catch the Mini-Mega menace in action—boomerangs flying, boulders crashing, and enemies soaring! 🚀💥 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1892378741889765391</guid>
-      <pubDate>Thu, 20 Feb 2025 01:00:25 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GkMUb83XkAA7msI.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GkMUb96WUAA037c.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Fri, 21 Feb 2025 00:53:43 +0000</lastBuildDate>
   </channel>
 </rss>
