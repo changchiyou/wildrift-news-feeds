@@ -7,16 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Mar 2025 23:11:36 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1897436991211409563</link>
-      <description>Polish up those goggles and strap in, because new and improved #Corki takes off on March 6th UTC 🔥 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1897436991211409563</guid>
-      <pubDate>Thu, 06 Mar 2025 00:00:06 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1897435814037979136/pu/img/Te8dme7w8GCj1yVP.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Fri, 07 Mar 2025 00:55:28 +0000</lastBuildDate>
   </channel>
 </rss>
