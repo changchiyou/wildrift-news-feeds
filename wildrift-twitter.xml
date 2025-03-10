@@ -7,16 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Mar 2025 23:09:21 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1898619816291799285</link>
-      <description>Feel separated from your friends because of your ranks? Now you can rank up while playing with all of your friends! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1898619816291799285</guid>
-      <pubDate>Sun, 09 Mar 2025 06:20:13 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GllAqUWX0AAf3GM.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Mon, 10 Mar 2025 00:45:41 +0000</lastBuildDate>
   </channel>
 </rss>
