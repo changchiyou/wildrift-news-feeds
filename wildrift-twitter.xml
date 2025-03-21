@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Mar 2025 00:57:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 02:21:38 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1902903049816801395</link>
+      <description>For years, they’ve worked in secret. Researched. Yapped. A secret unit inside wildrift has specialized on yordling, piecing together what others ignore. What they came up with… well it’s unconventional 😅Coming soon! #Letsyordle </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1902903049816801395</guid>
+      <pubDate>Fri, 21 Mar 2025 02:00:15 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/Gmh4PWPaQAA8YOd.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
