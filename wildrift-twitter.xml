@@ -7,6 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Mar 2025 00:57:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 02:21:38 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1904714931074642134</link>
+      <description>Are you the hero the Rift has been waiting for? Pair up with our newest yordle on March 28th UTC and find out!
+
+🔨 Poppy
+🔨 Guess Who Poppy </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1904714931074642134</guid>
+      <pubDate>Wed, 26 Mar 2025 02:00:02 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1904713745881821184/pu/img/OyDvTzPqEJgu1wKE.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
