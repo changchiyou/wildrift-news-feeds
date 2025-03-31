@@ -7,6 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Mar 2025 01:00:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 02:38:29 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1906526943408701884</link>
+      <description>Welcome to the world of magical macarons and sorcerous scones! Today on the menu: cuties so sweet they will make your enemies’ tooth ache 🍰 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1906526943408701884</guid>
+      <pubDate>Mon, 31 Mar 2025 02:00:19 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GnVYI-XXgAAFI0R.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GnVYJEsWQAAtNXi.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GnVYI-hW0AExnlx.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GnVYI-hW0AADvdt.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
