@@ -7,42 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Apr 2025 23:11:47 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1912430977608990773</link>
-      <description>⚒️ Patch Notes 6.1 ⚒️ 
-✨Dual Nova! 
-⭐Challenger’s Star is live, with a special Ranked event! 
-🏆Ranked and Legendary Queue Updates and new rewards! 
-🧙Ryze makes his debut!
-📓… and more! 
-
-https://t.co/Itr60HSbXC </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1912430977608990773</guid>
-      <pubDate>Wed, 16 Apr 2025 09:00:50 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GopR1w0WEAEeiq0.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X</title>
-      <link>https://x.com/wildrift/status/1912418773132341606</link>
-      <description>Our Anti-cheat system is getting some upgrades in patch 6.1! 🕵️
-
-https://t.co/UJ49GObBRV</description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1912418773132341606</guid>
-      <pubDate>Wed, 16 Apr 2025 08:12:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1912325155826581958</link>
-      <description>Nothing will stop you, if you look up and follow the stars! Watch the full video on April 17 UTC ✨ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1912325155826581958</guid>
-      <pubDate>Wed, 16 Apr 2025 02:00:21 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GonxmIZWUAAZUca.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Thu, 17 Apr 2025 00:58:58 +0000</lastBuildDate>
   </channel>
 </rss>
