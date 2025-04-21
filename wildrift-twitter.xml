@@ -7,18 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Apr 2025 23:11:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Apr 2025 01:02:09 +0000</lastBuildDate>
     <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1913774624489296096</link>
-      <description>A Hextech empowered warrior-crocodile and a blind martial arts master walk into a bar. What happens next?! Find out April 30th UTC!
-
-🐊 Hextech Renekton
-👊 Dragon Fist Lee Sin </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1913774624489296096</guid>
-      <pubDate>Sun, 20 Apr 2025 02:00:01 +0000</pubDate>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1914122022856036635</link>
+      <description>Float like a crocodile, sting like a Lee 👊 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1914122022856036635</guid>
+      <pubDate>Mon, 21 Apr 2025 01:00:27 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/amplify_video_thumb/1913086887742320640/img/jS_8KkSlrB27Amng.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GpBT1DWW4AAcc5V.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/GpBT1GjXsAAippz.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
