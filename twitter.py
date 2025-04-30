@@ -195,9 +195,13 @@ async def scrape_tweet(url: str) -> dict:
         tweet_calls = [f for f in _xhr_calls if "TweetResultByRestId" in f.url]
         logging.info(f"Captured background requests for tweets: {tweet_calls}")
         for xhr in tweet_calls:
-            data = await xhr.json()
-            logging.info(f"Scraped data from tweet URL: `{url}`")
-            return data['data']['tweetResult']['result']
+            try:
+                data = await xhr.json()
+                logging.info(f"Scraped data from tweet URL: `{url}`")
+                return data['data']['tweetResult']['result']
+            except Exception as e:
+                logging.error(f"Failed to parse JSON from response: {e}")
+                logging.error(f"Response content: {await xhr.text()}")
 
     logging.info(f"{url} has been scrapped by `scrape_tweet`")
 
