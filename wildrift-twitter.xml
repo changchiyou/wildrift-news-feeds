@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>League of Legends: Wild Rift (@wildrift) / Twitter</title>
+    <link>https://x.com/wildrift</link>
+    <description>League of Legends: Wild Rift (@wildrift) / Twitter</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 Apr 2025 10:55:37 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1917478518184722672</link>
+      <description>Strop chasing storms and command them with these skins starting tomorrow ⛈️ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1917478518184722672</guid>
+      <pubDate>Wed, 30 Apr 2025 07:17:58 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1917478394310107136/pu/img/stHIFXg0KYxqPpC_.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1917413657396253049</link>
+      <description>The treasure vault is bringing bundles galore–even for the rainy days ⛈️ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1917413657396253049</guid>
+      <pubDate>Wed, 30 Apr 2025 03:00:14 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GpwFj3jX0AAhzpk.jpg" medium="image"/>
+      </media:group>
+    </item>
+  </channel>
+</rss>
