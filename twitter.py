@@ -17,12 +17,12 @@ async def generate_twitter_rss():
     twitter = TwitterAsync("SESSION")
     logging.info("TwitterAsync API initialized")
 
-    # Singing In using Credentials
+    # Signing In using Credentials
     account, password, extra = os.environ.get("TWITTER_ACCOUNT_PASSWORD", "").split()
     twitter.start(account, password, extra=extra)
     logging.info(f"logged in as `{twitter.user}`")
 
-    # Singing In using Cookies
+    # Signing In using Cookies
     # https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?utm_campaign=cgagnier.ca
     # Export -> Header String
     # cookie_value = os.environ.get("TWITTER_COOKIE_VALUE", "")
