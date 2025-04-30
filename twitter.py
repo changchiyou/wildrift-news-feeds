@@ -9,11 +9,13 @@ import jmespath
 import asyncio
 
 async def generate_twitter_rss():
+    logging.info("Starting `generate_twitter_rss` function")
     data = toml.load('./twitter.toml')
     logging.info("`./twitter.toml` loaded successfully")
 
     # Initialize Twitter API
     twitter = TwitterAsync("SESSION")
+    logging.info("TwitterAsync API initialized")
 
     # Singing In using Credentials
     # account, password, extra = os.environ.get("TWITTER_ACCOUNT_PASSWORD", "").split()
@@ -25,6 +27,7 @@ async def generate_twitter_rss():
     # Export -> Header String
     cookie_value = os.environ.get("TWITTER_COOKIE_VALUE", "")
     await twitter.load_cookies(cookie_value)
+    logging.info("twitter.load_cookies success")
 
     # To test in local, execute following cmd in terminal:
     # export TWITTER_AUTH_TOKEN=<your token>
@@ -34,17 +37,23 @@ async def generate_twitter_rss():
     xmls = []
 
     for rss_file_name in data:
+        logging.info(f"Processing `{rss_file_name}`")
         username = data[rss_file_name]["username"]
+        logging.info(f"Fetching tweets from user `{username}`")
 
         # Advanced Search - X/Twitter
         today_date = datetime.datetime.now().strftime(r'%Y-%m-%d')
         query = f'(from:{username}) since:{today_date}'
+        logging.info(f"Search query: `{query}`")
         tweets = await twitter.search(query)
+        logging.info(f"Retrieved {len(tweets)} tweets")
 
         # Sort from old to new
         tweets = sorted(list(tweets), key=lambda tweet: tweet.created_on, reverse=False)
+        logging.info("Sorted tweets from old to new")
 
         twitter_url = f'https://x.com/{username}'
+        logging.info(f"Twitter URL: `{twitter_url}`")
 
         # Create RSS feed
         fg = FeedGenerator()
@@ -58,10 +67,12 @@ async def generate_twitter_rss():
 
         # Add tweets to the RSS feed
         for tweet in tweets:
+            logging.info(f"Processing tweet ID `{tweet.id}`")
             fe = fg.add_entry()
             tweet_url = f'https://x.com/{username}/status/{tweet.id}'
 
             result = parse_tweet(await scrape_tweet(tweet_url))
+            logging.info(f"Scraped tweet ID `{tweet.id}`")
 
             reply_to = f"reply to @{result['in_reply_to_screen_name']} " if result['in_reply_to_screen_name'] else ""
             title = f"{result['username']} (@{result['userid']}) {reply_to}on X"
@@ -102,6 +113,7 @@ async def generate_twitter_rss():
 
         # Ensure the 'public' directory exists
         os.makedirs('public', exist_ok=True)
+        logging.info(f"'public' directory ensured")
 
         # Generate the RSS XML
         xml_file_name = f'public/{rss_file_name}.xml'
@@ -122,6 +134,7 @@ def parse_tweet(data: dict) -> dict:
 
     Reference: https://scrapfly.io/blog/how-to-scrape-twitter/
     """
+    logging.info("Parsing tweet data")
     result = jmespath.search(
         """{
         userid: core.user_results.result.legacy.screen_name,
@@ -142,7 +155,7 @@ def parse_tweet(data: dict) -> dict:
     }""",
         data,
     )
-
+    logging.info("Parsed tweet data successfully")
     return result
 
 async def scrape_tweet(url: str) -> dict:
@@ -152,6 +165,7 @@ async def scrape_tweet(url: str) -> dict:
 
     Reference: https://scrapfly.io/blog/how-to-scrape-twitter/
     """
+    logging.info(f"Starting to scrape tweet from URL: `{url}`")
     _xhr_calls = []
 
     def intercept_response(response):
@@ -163,19 +177,26 @@ async def scrape_tweet(url: str) -> dict:
 
     async with async_playwright() as pw:
         browser = await pw.firefox.launch()
+        logging.info("Launched Firefox browser")
         context = await browser.new_context(viewport={"width": 1920, "height": 1080})
+        logging.info("Created new browser context")
         page = await context.new_page()
 
         # enable background request intercepting:
         page.on("response", intercept_response)
+        logging.info("Enabled response interception")
         # go to url and wait for the page to load
         await page.goto(url, wait_until="domcontentloaded")
+        logging.info("Navigated to tweet URL and waiting for content to load")
         await page.wait_for_selector("[data-testid='tweet']")
+        logging.info("Tweet content loaded")
 
         # find all tweet background requests:
         tweet_calls = [f for f in _xhr_calls if "TweetResultByRestId" in f.url]
+        logging.info("Captured background requests for tweets")
         for xhr in tweet_calls:
             data = await xhr.json()
+            logging.info(f"Scraped data from tweet URL: `{url}`")
             return data['data']['tweetResult']['result']
 
     logging.info(f"{url} has been scrapped by `scrape_tweet`")
@@ -184,4 +205,5 @@ async def scrape_tweet(url: str) -> dict:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s')
+    logging.info("Script execution started")
     asyncio.run(generate_twitter_rss())
