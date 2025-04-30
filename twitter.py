@@ -9,106 +9,119 @@ import jmespath
 import asyncio
 
 async def generate_twitter_rss():
-    data = toml.load('./twitter.toml')
-    logging.info("`./twitter.toml` loaded successfully")
+    logging.info("Starting to generate Twitter RSS feeds")
+    try:
+        data = toml.load('./twitter.toml')
+        logging.info("`./twitter.toml` loaded successfully")
+    except Exception as e:
+        logging.error(f"Failed to load `./twitter.toml`: {e}")
+        return
 
     # Initialize Twitter API
-    twitter = TwitterAsync("SESSION")
-
-    # Singing In using Credentials
-    # account, password, extra = os.environ.get("TWITTER_ACCOUNT_PASSWORD", "").split()
-    # twitter.start(account, password, extra=extra)
-    # logging.info(f"logged in as `{twitter.user}`")
+    try:
+        twitter = TwitterAsync("SESSION")
+        logging.info("Twitter API initialized successfully")
+    except Exception as e:
+        logging.error(f"Failed to initialize Twitter API: {e}")
+        return
 
     # Singing In using Cookies
-    # https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?utm_campaign=cgagnier.ca
-    # Export -> Header String
     cookie_value = os.environ.get("TWITTER_COOKIE_VALUE", "")
-    await twitter.load_cookies(cookie_value)
-
-    # To test in local, execute following cmd in terminal:
-    # export TWITTER_AUTH_TOKEN=<your token>
-    # twitter.load_auth_token(os.environ.get("TWITTER_AUTH_TOKEN"))
-    # logging.info("twitter.load_auth_token success")
+    if not cookie_value:
+        logging.warning("No TWITTER_COOKIE_VALUE environment variable set")
+    else:
+        try:
+            await twitter.load_cookies(cookie_value)
+            logging.info("Twitter cookies loaded successfully")
+        except Exception as e:
+            logging.error(f"Failed to load cookies: {e}")
+            return
 
     xmls = []
 
     for rss_file_name in data:
-        username = data[rss_file_name]["username"]
+        try:
+            logging.info(f"Processing `{rss_file_name}`")
+            username = data[rss_file_name]["username"]
+            logging.info(f"Username: {username}")
 
-        # Advanced Search - X/Twitter
-        today_date = datetime.datetime.now().strftime(r'%Y-%m-%d')
-        query = f'(from:{username}) since:{today_date}'
-        tweets = await twitter.search(query)
+            # Advanced Search - X/Twitter
+            today_date = datetime.datetime.now().strftime(r'%Y-%m-%d')
+            query = f'(from:{username}) since:{today_date}'
+            logging.info(f"Search query: {query}")
+            tweets = await twitter.search(query)
+            logging.info(f"Number of tweets found: {len(tweets)}")
 
-        # Sort from old to new
-        tweets = sorted(list(tweets), key=lambda tweet: tweet.created_on, reverse=False)
+            # Sort from old to new
+            tweets = sorted(list(tweets), key=lambda tweet: tweet.created_on, reverse=False)
+            twitter_url = f'https://x.com/{username}'
 
-        twitter_url = f'https://x.com/{username}'
+            # Create RSS feed
+            fg = FeedGenerator()
+            fg.load_extension('media')
+            fg.id(twitter_url)
+            fg.title(data[rss_file_name]["rssname"])
+            fg.author({'name': username, 'uri': twitter_url})
+            fg.link(href=twitter_url)
+            fg.language('en')
+            fg.description(data[rss_file_name]["rssname"])
 
-        # Create RSS feed
-        fg = FeedGenerator()
-        fg.load_extension('media')
-        fg.id(twitter_url)
-        fg.title(data[rss_file_name]["rssname"])
-        fg.author({'name': username, 'uri': twitter_url})
-        fg.link(href=twitter_url)
-        fg.language('en')
-        fg.description(data[rss_file_name]["rssname"])
+            # Add tweets to the RSS feed
+            for tweet in tweets:
+                fe = fg.add_entry()
+                tweet_url = f'https://x.com/{username}/status/{tweet.id}'
+                logging.info(f"Processing tweet: {tweet_url}")
 
-        # Add tweets to the RSS feed
-        for tweet in tweets:
-            fe = fg.add_entry()
-            tweet_url = f'https://x.com/{username}/status/{tweet.id}'
+                result = parse_tweet(await scrape_tweet(tweet_url))
 
-            result = parse_tweet(await scrape_tweet(tweet_url))
+                reply_to = f"reply to @{result['in_reply_to_screen_name']} " if result['in_reply_to_screen_name'] else ""
+                title = f"{result['username']} (@{result['userid']}) {reply_to}on X"
+                description = result["full_text"]
+                media_urls = result["media_urls"]
 
-            reply_to = f"reply to @{result['in_reply_to_screen_name']} " if result['in_reply_to_screen_name'] else ""
-            title = f"{result['username']} (@{result['userid']}) {reply_to}on X"
+                if media_urls:
+                    for attached_url in media_urls:
+                        description = description.replace(attached_url, '')
 
-            description = result["full_text"]
-            media_urls = result["media_urls"]
+                    media_includes = set()
+                    for media_expanded_url, media_type \
+                        in zip(result["media_expanded_urls"], result["media_types"]):
+                        match media_type:
+                            case "photo":
+                                media_includes.add("🌄")
+                                medium = "image"
+                                media_found_log = "Found [image] media: "
+                            case "video"|"animated_gif":
+                                media_includes.add("🎬")
+                                medium = "image"
+                                media_found_log = f"Found [{media_type}] media but only embed preview image: "
+                            case _:
+                                continue
 
-            if media_urls:
-                for attached_url in media_urls:
-                    description = description.replace(attached_url, '')
+                        fe.media.content(url=media_expanded_url, medium=medium)  # type: ignore
+                        logging.info(f"{media_found_log}{media_expanded_url}")
 
-                media_includes = set()
-                for media_expanded_url, media_type \
-                    in zip(result["media_expanded_urls"], result["media_types"]):
-                    match media_type:
-                        case "photo":
-                            media_includes.add("🌄")
-                            medium = "image"
-                            media_found_log = "Found [image] media: "
-                        case "video"|"animated_gif":
-                            media_includes.add("🎬")
-                            medium = "image"
-                            media_found_log = f"Found [{media_type}] media but only embed preview image: "
-                        case _:
-                            continue
+                    if media_includes:
+                        title += " " + "".join(media_includes)
 
-                    fe.media.content(url=media_expanded_url, medium=medium)  # type: ignore
-                    logging.info(f"{media_found_log}{media_expanded_url}")
+                fe.title(title)
+                fe.description(description)
+                fe.id(tweet_url)
+                fe.link(href=tweet_url)
+                fe.pubDate(tweet.created_on)
 
-                if media_includes:
-                    title += " " + "".join(media_includes)
+            # Ensure the 'public' directory exists
+            os.makedirs('public', exist_ok=True)
 
-            fe.title(title)
-            fe.description(description)
-            fe.id(tweet_url)
-            fe.link(href=tweet_url)
-            fe.pubDate(tweet.created_on)
+            # Generate the RSS XML
+            xml_file_name = f'public/{rss_file_name}.xml'
+            fg.rss_file(xml_file_name, pretty=True)
+            xmls.append(xml_file_name)
 
-        # Ensure the 'public' directory exists
-        os.makedirs('public', exist_ok=True)
+            logging.info(f"{xml_file_name} has been generated")
 
-        # Generate the RSS XML
-        xml_file_name = f'public/{rss_file_name}.xml'
-        fg.rss_file(xml_file_name, pretty=True)
-        xmls.append(xml_file_name)
-
-        logging.info(f"{xml_file_name} has been generated")
+        except Exception as e:
+            logging.error(f"Error processing `{rss_file_name}`: {e}")
 
     logging.info("Feeds generated in `public/` folder")
 
@@ -117,6 +130,7 @@ async def generate_twitter_rss():
         logging.info(f"- https://changchiyou.github.io/wildrift-news-feeds/{xml}")
 
 def parse_tweet(data: dict) -> dict:
+    logging.info("Parsing tweet data")
     """
     Parse Twitter tweet JSON dataset for the most important fields.
 
@@ -146,6 +160,7 @@ def parse_tweet(data: dict) -> dict:
     return result
 
 async def scrape_tweet(url: str) -> dict:
+    logging.info(f"Scraping tweet: {url}")
     """
     Scrape a single tweet page for Tweet thread e.g.:
     Return parent tweet, reply tweets and recommended tweets
@@ -161,27 +176,33 @@ async def scrape_tweet(url: str) -> dict:
             _xhr_calls.append(response)
         return response
 
-    async with async_playwright() as pw:
-        browser = await pw.firefox.launch()
-        context = await browser.new_context(viewport={"width": 1920, "height": 1080})
-        page = await context.new_page()
+    try:
+        async with async_playwright() as pw:
+            browser = await pw.firefox.launch()
+            context = await browser.new_context(viewport={"width": 1920, "height": 1080})
+            page = await context.new_page()
 
-        # enable background request intercepting:
-        page.on("response", intercept_response)
-        # go to url and wait for the page to load
-        await page.goto(url, wait_until="domcontentloaded")
-        await page.wait_for_selector("[data-testid='tweet']")
+            # enable background request intercepting:
+            page.on("response", intercept_response)
+            # go to url and wait for the page to load
+            await page.goto(url, wait_until="domcontentloaded")
+            await page.wait_for_selector("[data-testid='tweet']")
 
-        # find all tweet background requests:
-        tweet_calls = [f for f in _xhr_calls if "TweetResultByRestId" in f.url]
-        for xhr in tweet_calls:
-            data = await xhr.json()
-            return data['data']['tweetResult']['result']
+            # find all tweet background requests:
+            tweet_calls = [f for f in _xhr_calls if "TweetResultByRestId" in f.url]
+            for xhr in tweet_calls:
+                data = await xhr.json()
+                logging.info("Tweet data scrapped successfully")
+                return data['data']['tweetResult']['result']
+
+    except Exception as e:
+        logging.error(f"Error scraping tweet: {e}")
 
     logging.info(f"{url} has been scrapped by `scrape_tweet`")
 
     return dict() # Would not be executed
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s')
+    logging.basicConfig(level=logging.INFO, 
+                        format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s')
     asyncio.run(generate_twitter_rss())
