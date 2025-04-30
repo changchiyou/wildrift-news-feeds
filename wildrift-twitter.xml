@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Apr 2025 06:18:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 07:12:49 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/1917413657396253049</link>
@@ -16,16 +16,6 @@
       <pubDate>Wed, 30 Apr 2025 03:00:14 +0000</pubDate>
       <media:group>
         <media:content url="https://pbs.twimg.com/media/GpwFj3jX0AAhzpk.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1917398519960179101</link>
-      <description>Strop chasing storms and command them with these skins starting tomorrow ⛈️ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1917398519960179101</guid>
-      <pubDate>Wed, 30 Apr 2025 02:00:05 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1917397312508133376/pu/img/j-LWJ7Kq8m1Ws2Tw.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
