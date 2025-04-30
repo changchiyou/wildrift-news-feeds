@@ -19,7 +19,7 @@ async def generate_twitter_rss():
 
     # Signing In using Credentials
     account, password, extra = os.environ.get("TWITTER_ACCOUNT_PASSWORD", "").split()
-    twitter.start(account, password, extra=extra)
+    await twitter.start(account, password, extra=extra)
     logging.info(f"logged in as `{twitter.user}`")
 
     # Signing In using Cookies
