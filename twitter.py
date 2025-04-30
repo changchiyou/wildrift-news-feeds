@@ -18,16 +18,16 @@ async def generate_twitter_rss():
     logging.info("TwitterAsync API initialized")
 
     # Signing In using Credentials
-    account, password, extra = os.environ.get("TWITTER_ACCOUNT_PASSWORD", "").split()
-    await twitter.start(account, password, extra=extra)
-    logging.info(f"logged in as `{twitter.user}`")
+    # account, password, extra = os.environ.get("TWITTER_ACCOUNT_PASSWORD", "").split()
+    # await twitter.start(account, password, extra=extra)
+    # logging.info(f"logged in as `{twitter.user}`")
 
     # Signing In using Cookies
     # https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?utm_campaign=cgagnier.ca
     # Export -> Header String
-    # cookie_value = os.environ.get("TWITTER_COOKIE_VALUE", "")
-    # await twitter.load_cookies(cookie_value)
-    # logging.info("twitter.load_cookies success")
+    cookie_value = os.environ.get("TWITTER_COOKIE_VALUE", "")
+    await twitter.load_cookies(cookie_value)
+    logging.info("twitter.load_cookies success")
 
     # To test in local, execute following cmd in terminal:
     # export TWITTER_AUTH_TOKEN=<your token>
