@@ -45,8 +45,20 @@ async def generate_twitter_rss():
         today_date = datetime.datetime.now().strftime(r'%Y-%m-%d')
         query = f'(from:{username}) since:{today_date}'
         logging.info(f"Search query: `{query}`")
-        tweets = await twitter.search(query)
-        logging.info(f"Retrieved {len(tweets)} tweets")
+        retries = 3
+        for attempt in range(retries):
+            try:
+                tweets = await twitter.search(query)
+                logging.info(f"Retrieved {len(tweets)} tweets")
+                break
+            except Exception as e:
+                logging.error(f"Attempt {attempt + 1} failed: {e}")
+                if attempt < retries - 1:
+                    await asyncio.sleep(10)
+                else:
+                    logging.error(f"All {retries} attempts failed. Skipping user `{username}`")
+                    # Raise exception to indicate failure in GitHub Actions
+                    raise RuntimeError(f"Failed to fetch tweets for user `{username}` after {retries} attempts")
 
         # Sort from old to new
         tweets = sorted(list(tweets), key=lambda tweet: tweet.created_on, reverse=False)
