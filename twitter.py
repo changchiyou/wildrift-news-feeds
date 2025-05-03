@@ -192,7 +192,8 @@ async def scrape_tweet(url: str) -> dict:
 
         # find all tweet background requests:
         tweet_calls = [f for f in _xhr_calls if "TweetResultByRestId" in f.url]
-        logging.info(f"Captured background requests for tweets: {tweet_calls}")
+        # logging.info(f"Captured background requests for tweets: {tweet_calls}")
+        logging.info(f"Captured background requests for tweets")
         for xhr in tweet_calls:
             try:
                 data = await xhr.json()
