@@ -45,20 +45,7 @@ async def generate_twitter_rss():
         today_date = datetime.datetime.now().strftime(r'%Y-%m-%d')
         query = f'(from:{username}) since:{today_date}'
         logging.info(f"Search query: `{query}`")
-        retries = 3
-        for attempt in range(retries):
-            try:
-                tweets = await twitter.search(query)
-                logging.info(f"Retrieved {len(tweets)} tweets")
-                break
-            except Exception as e:
-                logging.error(f"Attempt {attempt + 1} failed: {e}")
-                if attempt < retries - 1:
-                    await asyncio.sleep(10)
-                else:
-                    logging.error(f"All {retries} attempts failed. Skipping user `{username}`")
-                    # Raise exception to indicate failure in GitHub Actions
-                    raise RuntimeError(f"Failed to fetch tweets for user `{username}` after {retries} attempts")
+        tweets = await twitter.search(query)
 
         # Sort from old to new
         tweets = sorted(list(tweets), key=lambda tweet: tweet.created_on, reverse=False)
@@ -222,4 +209,15 @@ async def scrape_tweet(url: str) -> dict:
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s')
     logging.info("Script execution started")
-    asyncio.run(generate_twitter_rss())
+    retries = 3
+    for attempt in range(retries):
+        try:
+            asyncio.run(generate_twitter_rss())
+            break  # Exit loop if no exception is raised
+        except Exception as e:
+            logging.error(f"Attempt {attempt + 1} of {retries} failed.")
+            if attempt == retries - 1:
+                logging.error("Maximum retries reached. Raising exception.")
+                raise e
+            else:
+                logging.info("Retrying...")
