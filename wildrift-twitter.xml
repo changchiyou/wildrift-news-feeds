@@ -7,6 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 May 2025 01:59:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 03:21:31 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1918863201963237809</link>
+      <description>What’s your Ryze MO?! </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1918863201963237809</guid>
+      <pubDate>Sun, 04 May 2025 03:00:12 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GqEr6e3XcAAOLJp.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1918848112300360104</link>
+      <description>It’s URF time! Who’s your go-to pick soulmate?✨️ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1918848112300360104</guid>
+      <pubDate>Sun, 04 May 2025 02:00:15 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GqEeMFkX0AAqLiW.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
