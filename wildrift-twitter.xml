@@ -7,26 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 May 2025 23:22:02 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1919950366306717821</link>
-      <description>No adventure is complete without the Poros! Follow them to the Adventurer’s Star to discover the newest journey to endless fun 🥳 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1919950366306717821</guid>
-      <pubDate>Wed, 07 May 2025 03:00:12 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GqUIrvkXAAAmxcK.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1919935274856911178</link>
-      <description>Don’t forget about the biggest egg hunt on the Rift! There’s an eggciting amount of rewards to be earned 🐣 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1919935274856911178</guid>
-      <pubDate>Wed, 07 May 2025 02:00:14 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GqT69SoXYAAYfiv.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Thu, 08 May 2025 01:52:38 +0000</lastBuildDate>
   </channel>
 </rss>
