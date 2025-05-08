@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 May 2025 01:52:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 May 2025 03:15:11 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1920312753371148581</link>
+      <description>Sorry, our devs are on a break… Can you help us identify these less-than-sharp champs? </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1920312753371148581</guid>
+      <pubDate>Thu, 08 May 2025 03:00:12 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GqZSRf0XcAAiWwA.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
