@@ -7,29 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 May 2025 23:21:36 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1921762303008977390</link>
-      <description>Good luck finding the off switch 🦾 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1921762303008977390</guid>
-      <pubDate>Mon, 12 May 2025 03:00:12 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/Gqt4oW7WwAAizvx.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/Gqt4oWpWoAAlJJ5.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/Gqt4oXUXUAAMq5V.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1921747208413549007</link>
-      <description>Don’t just defeat your enemies, give them nightmares 😱 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1921747208413549007</guid>
-      <pubDate>Mon, 12 May 2025 02:00:13 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/Gqtq5tnXoAA71Td.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/Gqtq5ufX0AECBJP.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Tue, 13 May 2025 01:53:24 +0000</lastBuildDate>
   </channel>
 </rss>
