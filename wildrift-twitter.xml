@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 May 2025 01:52:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 May 2025 03:13:56 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1922487082599031124</link>
+      <description>Phase 2 of patch 6.1 is knocking on the Rift gates. Get a sneak peak of what’s to come! </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1922487082599031124</guid>
+      <pubDate>Wed, 14 May 2025 03:00:13 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/Gq4L0CVWMAAh-hz.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
