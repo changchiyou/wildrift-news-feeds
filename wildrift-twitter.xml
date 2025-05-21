@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 May 2025 01:54:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 03:14:19 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1925023799142977823</link>
+      <description>Someone so impeccably dressed can handle a little rain 🌧️ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1925023799142977823</guid>
+      <pubDate>Wed, 21 May 2025 03:00:13 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GrcO8XaXkAAB31P.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
