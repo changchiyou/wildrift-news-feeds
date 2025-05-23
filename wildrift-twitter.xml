@@ -7,6 +7,32 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 May 2025 01:52:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 May 2025 03:15:37 +0000</lastBuildDate>
+    <item>
+      <title>None (@None) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1925748574194675738</link>
+      <description>Experience the augmented excitement of the Howling Abyss like you never have before! NOW! </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1925748574194675738</guid>
+      <pubDate>Fri, 23 May 2025 03:00:13 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1925747342629576704/pu/img/pQy8ZvWH1mJkNfSn.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>None (@None) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1925733426725855520</link>
+      <description>Are you a morning person, or a night owl? It’s time to choose as Dawnbringers and Nightbringers take over the Rift on May 30th UTC!
+
+🤍 Dawnbringer Viego
+🤍 Dawnbringer Xin Zhao
+🖤 Nightbringer Shen
+🖤 Nightbringer Swain
+🖤 Nightbringer Lee Sin </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1925733426725855520</guid>
+      <pubDate>Fri, 23 May 2025 02:00:01 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1925732215410900992/pu/img/Sxm2yydT64YQ2Uwv.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
