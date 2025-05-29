@@ -7,6 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 May 2025 01:53:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 May 2025 03:16:29 +0000</lastBuildDate>
+    <item>
+      <title>None (@None) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1927922899362390113</link>
+      <description>Get your colors out for Pride! It’s time to celebrate our LGBTQIA+ players and all their contributions to the Rift. Bag some themed goodies to show off proudly 🌈 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1927922899362390113</guid>
+      <pubDate>Thu, 29 May 2025 03:00:12 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GsFbqNdWAAAmkNu.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>None (@None) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1927907806352449691</link>
+      <description>Same champ. Different modes. Runes change everything.😎Who’s your certified carry pick in AAA ARAM? </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1927907806352449691</guid>
+      <pubDate>Thu, 29 May 2025 02:00:14 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GsFN7rxXYAEA94F.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
