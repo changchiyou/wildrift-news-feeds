@@ -75,7 +75,6 @@ async def generate_twitter_rss():
 
             reply_to = f"reply to @{result['in_reply_to_screen_name']} " if result['in_reply_to_screen_name'] else ""
             title = f"{result['username']} (@{result['userid']}) {reply_to}on X"
-
             description = result["full_text"]
             media_urls = result["media_urls"]
 
@@ -126,7 +125,7 @@ async def generate_twitter_rss():
     logging.info("They will be published at:")
     for xml in xmls:
         base_name = os.path.basename(xml)
-        logging.info(f"- https://changchiyou.github.io/wildrift-news-feeds/{base_name")
+        logging.info(f"- https://changchiyou.github.io/wildrift-news-feeds/{base_name}")
 
 def parse_tweet(data: dict) -> dict:
     """
@@ -137,9 +136,9 @@ def parse_tweet(data: dict) -> dict:
     logging.info("Parsing tweet data")
     result = jmespath.search(
         """{
-        userid: core.user_results.result.legacy.screen_name,
-        username: core.user_results.result.legacy.name,
-        created_at: legacy.created_at,
+        userid: core.user_results.result.core.screen_name,
+        username: core.user_results.result.core.name,
+        created_at: core.user_results.result.core.created_at,
         attached_display_urls: legacy.entities.urls[].display_url,
         attached_expanded_urls: legacy.entities.urls[].expanded_url,
         attached_urls: legacy.entities.urls[].url,
