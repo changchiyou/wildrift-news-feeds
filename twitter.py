@@ -125,7 +125,8 @@ async def generate_twitter_rss():
 
     logging.info("They will be published at:")
     for xml in xmls:
-        logging.info(f"- https://changchiyou.github.io/wildrift-news-feeds/{xml}")
+        base_name = os.path.basename(xml)
+        logging.info(f"- https://changchiyou.github.io/wildrift-news-feeds/{base_name")
 
 def parse_tweet(data: dict) -> dict:
     """
