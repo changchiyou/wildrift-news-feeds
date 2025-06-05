@@ -7,6 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Jun 2025 01:54:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 03:20:38 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1930459615986127287</link>
+      <description>The poros are ready to throw it down for you in Showdown starting June 6th UTC! </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1930459615986127287</guid>
+      <pubDate>Thu, 05 Jun 2025 03:00:13 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GspeylyWIAAgeb4.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1930444523320029391</link>
+      <description>Last chance to go on the wild ride that is Wondertown Twisted Fate. Grab him before the cards disappear on June 12th 🃏 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1930444523320029391</guid>
+      <pubDate>Thu, 05 Jun 2025 02:00:14 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GspREAoXEAERmsS.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
