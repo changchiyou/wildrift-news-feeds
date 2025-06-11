@@ -7,56 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Jun 2025 23:22:07 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1932271515573035363</link>
-      <description>A Chronokeeper is never late, nor is he early. He’s just in time for battle on June 13th UTC!
-
-⏳ Zilean 
-🌔Blood Moon Zilean </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1932271515573035363</guid>
-      <pubDate>Tue, 10 Jun 2025 03:00:03 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1932270310230835200/pu/img/DFuwuuikMDQZubBE.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1932271214178832609</link>
-      <description>🕵️An update on our Anti-Cheat, read more about in our latest Rift Report 
-https://t.co/zc7j2ye7eH </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1932271214178832609</guid>
-      <pubDate>Tue, 10 Jun 2025 02:58:51 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GtDObeBXIAA5cOU.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1932263995525742910</link>
-      <description>🗣️Rift Report 🗣️
-
-🕵️Checking in our Anti-Cheat 
-⭐Highliting our creator of the week: @aspiralol
-
-https://t.co/zc7j2ye7eH </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1932263995525742910</guid>
-      <pubDate>Tue, 10 Jun 2025 02:30:10 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GtDH3URWYAAXGMB.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1932256477865025784</link>
-      <description>Tick tock, it’s time bomb o’clock 🕜 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1932256477865025784</guid>
-      <pubDate>Tue, 10 Jun 2025 02:00:18 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GtDBBmBXYAAYDBK.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GtDBBmbXMAA0YO_.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Wed, 11 Jun 2025 01:57:43 +0000</lastBuildDate>
   </channel>
 </rss>
