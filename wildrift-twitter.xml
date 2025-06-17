@@ -7,33 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Jun 2025 23:22:23 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1934445919182770262</link>
-      <description>They’re gonna show you what it means to be a bull in your enemies’ china shop on June 27th UTC </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1934445919182770262</guid>
-      <pubDate>Mon, 16 Jun 2025 03:00:22 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GtiIT7MXYAAwZRF.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1934430771206348805</link>
-      <description>They’re ready to serve you your enemies on a plate and eat on June 27th UTC!
-
-💙Porcelain Protector Aurelion Sol
-💙Porcelain Kindred
-💙Porcelain Ziggs
-💙Porcelain Lissandra
-💙Porcelain Jhin
-💙Prestige Porcelain Lissandra </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1934430771206348805</guid>
-      <pubDate>Mon, 16 Jun 2025 02:00:10 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1934429550101889024/pu/img/SyzaQ36G0FbT8l5L.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Tue, 17 Jun 2025 01:56:38 +0000</lastBuildDate>
   </channel>
 </rss>
