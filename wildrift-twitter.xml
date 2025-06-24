@@ -7,6 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Jun 2025 01:57:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jun 2025 03:24:51 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1937337435328856497</link>
+      <description>🗣️Rift Report 🗣️
+
+💙Porcelain Skins Concept Art 🤍
+⭐Spotlighting our creator of the week: Laposa
+
+ https://t.co/H1B7SpId8P </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1937337435328856497</guid>
+      <pubDate>Tue, 24 Jun 2025 02:30:13 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GuLOITUWgAAhVIv.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
