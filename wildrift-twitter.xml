@@ -7,34 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Jul 2025 23:23:32 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1942788320494239824</link>
-      <description>In what realm will your next victory take place? Hop around and find out on June 17th UTC!
-
-🐰  Aurora
-🏖️ Summer Party Aurora </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1942788320494239824</guid>
-      <pubDate>Wed, 09 Jul 2025 03:30:05 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1942787082943971328/pu/img/pnTXEyGMHoaTY9vK.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1942780758017396875</link>
-      <description>First we’ll do battle, but after that we're going swimming. Beach day is coming up on June 17th UTC!
-
-🏖️ Summer Party Seraphine
-🏖️ Summer Party Yasuo
-🏖️ Summer Party Katarina
-🏖️ Summer Party Samira </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1942780758017396875</guid>
-      <pubDate>Wed, 09 Jul 2025 03:00:02 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1942779539370770432/pu/img/ZLSvrGx4_4P3lob8.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Thu, 10 Jul 2025 01:59:17 +0000</lastBuildDate>
   </channel>
 </rss>
