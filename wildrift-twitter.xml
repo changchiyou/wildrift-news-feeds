@@ -7,6 +7,17 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Jul 2025 02:06:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jul 2025 04:04:00 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1944955084154028112</link>
+      <description>Short Yordle, shorter fuse. Let your enemies find out exactly how short by grabbing this skin through our Legendary Collection on July 17th UTC  
+💥 Omega Squad Veigar </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1944955084154028112</guid>
+      <pubDate>Tue, 15 Jul 2025 03:00:02 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1944953888798363648/pu/img/-QpbXVZyd_QvypqU.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
