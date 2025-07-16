@@ -7,27 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Jul 2025 23:24:30 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1945136487630033112</link>
-      <description>Patch 6.2 is all about discovering and building up your inner powers. To help you with that we’re kicking off with a bunch of goodies and rewards 🎉 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1945136487630033112</guid>
-      <pubDate>Tue, 15 Jul 2025 15:00:52 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/Gv6DU7rWMAAQ8O-.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1944955084154028112</link>
-      <description>Short Yordle, shorter fuse. Let your enemies find out exactly how short by grabbing this skin through our Legendary Collection on July 17th UTC  
-💥 Omega Squad Veigar </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1944955084154028112</guid>
-      <pubDate>Tue, 15 Jul 2025 03:00:02 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1944953888798363648/pu/img/-QpbXVZyd_QvypqU.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Wed, 16 Jul 2025 02:03:15 +0000</lastBuildDate>
   </channel>
 </rss>
