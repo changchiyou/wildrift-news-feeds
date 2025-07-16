@@ -7,6 +7,27 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Jul 2025 02:03:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 04:00:59 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1945328531619058069</link>
+      <description>There’s some mighty forces at play in patch 6.2. Be sure not to miss anything for the start on July 17th UTC ⚡ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1945328531619058069</guid>
+      <pubDate>Wed, 16 Jul 2025 03:43:59 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/Gv8x_VkXUAAXQuV.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/Gv8x_V6WAAAuY9C.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1945309914081190005</link>
+      <description>She might have her BOUNDaries but that doesn’t stop #Aurora from exploring new realms. Hop on July 17th UTC 🐰🪄 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1945309914081190005</guid>
+      <pubDate>Wed, 16 Jul 2025 02:30:00 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/Gvkgi-ea4AAOi_B.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
