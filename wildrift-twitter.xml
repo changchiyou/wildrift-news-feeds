@@ -7,18 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Jul 2025 23:24:56 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1947114409811206149</link>
-      <description>New patch, new ADC builds! ⚔️What’s your go-to setup this time? </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1947114409811206149</guid>
-      <pubDate>Mon, 21 Jul 2025 02:00:25 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GwWKPHlXUAAgeWf.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GwWKPIEWkAAQS0o.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GwWKPICXEAAPCcL.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Tue, 22 Jul 2025 02:05:01 +0000</lastBuildDate>
   </channel>
 </rss>
