@@ -7,16 +7,29 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Aug 2025 23:26:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Aug 2025 02:12:15 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1954014821315191035</link>
-      <description>The poros have worked tirelessly to polish every last surface and fill your goody bags up to the brim, so don’t miss any of our Crystal Rose Gala rewards 🎁💎 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1954014821315191035</guid>
-      <pubDate>Sat, 09 Aug 2025 03:00:11 +0000</pubDate>
+      <link>https://x.com/wildrift/status/1954362120985813052</link>
+      <description>Crystals shimmer, petals bloom. Grace in every detail.✨💐 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1954362120985813052</guid>
+      <pubDate>Sun, 10 Aug 2025 02:00:14 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/Gx4OH8FXUAAquFg.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/Gx4OH79WIAAoK6e.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/Gx9J_bvWoAAJR4q.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/Gx9J_ajXIAASozl.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/Gx9J_awWAAESaUo.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1954331933720092775</link>
+      <description>Crystal Rose Xayah has arrived with grace and vengeance and now you can re-create her elegant look with the help of our Cosplay Guide ✨ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1954331933720092775</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:17 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/Gx8uiOAWUAEUe7V.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/Gx8uiPCXkAAZdsq.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/Gx8uiOjXYAIVvTl.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
