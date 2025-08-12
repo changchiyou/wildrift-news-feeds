@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Aug 2025 11:22:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2025 12:51:07 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1955238153628835911</link>
+      <description>The poros are over the moon with this season’s festival! Thank you to our players from multiple regions all around the world for taking part in the celebrations!! And as a little token of our appreciation you can now log in and get a free skin 💎🌹 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1955238153628835911</guid>
+      <pubDate>Tue, 12 Aug 2025 12:01:17 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/GyJmvN7XAAAc-Qy.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
