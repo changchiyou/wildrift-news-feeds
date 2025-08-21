@@ -7,26 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Aug 2025 23:22:44 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1958001044912214440</link>
-      <description>Please be careful when opening your inventory, as items may have shifted during the magical journey. Landing on August 22nd UTC 🎶 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1958001044912214440</guid>
-      <pubDate>Wed, 20 Aug 2025 03:00:01 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1957999841608454144/pu/img/3MPAw62VDA8VtXbM.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1957985992373068137</link>
-      <description>Nature calls, can you pick up? The Mystical Heralds do seem slightly angry though and might have a bone to pick on August 22nd UTC 🌳 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1957985992373068137</guid>
-      <pubDate>Wed, 20 Aug 2025 02:00:12 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1957984744634716160/pu/img/rnDsFFcCtK5s7r1I.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Thu, 21 Aug 2025 01:50:15 +0000</lastBuildDate>
   </channel>
 </rss>
