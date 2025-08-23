@@ -7,19 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 Aug 2025 23:22:12 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1958710808805826589</link>
-      <description>Serving, and we’re not just talking about the gods 💅 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1958710808805826589</guid>
-      <pubDate>Fri, 22 Aug 2025 02:00:22 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/Gy69GQtW8AEPJI3.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/Gy69GQtXwAAW_hd.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/Gy69GQ1XIAAtkVK.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/Gy69GQxXIAA0Sss.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Sat, 23 Aug 2025 01:46:12 +0000</lastBuildDate>
   </channel>
 </rss>
