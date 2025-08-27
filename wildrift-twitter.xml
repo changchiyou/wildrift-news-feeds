@@ -7,27 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Aug 2025 23:20:38 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1960175428439560409</link>
-      <description>The summer I turned pretty..ER 😎 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1960175428439560409</guid>
-      <pubDate>Tue, 26 Aug 2025 03:00:15 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GzPxKW_WIAA3lI6.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1960160335341453693</link>
-      <description>Unravel the secrets of Bard and turn every fight into a symphony.🎶 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1960160335341453693</guid>
-      <pubDate>Tue, 26 Aug 2025 02:00:16 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/GzPjb7lXAAA0I_a.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/GzPjb8UWQAA6DDB.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Wed, 27 Aug 2025 01:47:49 +0000</lastBuildDate>
   </channel>
 </rss>
