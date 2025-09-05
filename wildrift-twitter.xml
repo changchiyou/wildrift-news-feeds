@@ -7,6 +7,29 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Sep 2025 01:44:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Sep 2025 03:01:18 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1963799307296878656</link>
+      <description>This Rift ain’t big enough for everybody. Who’s ready for a hunt? </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1963799307296878656</guid>
+      <pubDate>Fri, 05 Sep 2025 03:00:15 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/G0DRD9PXYAAJqYX.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1963784225280184598</link>
+      <description>Believe it or not, this IS actually their first Rodeo 🤠 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1963784225280184598</guid>
+      <pubDate>Fri, 05 Sep 2025 02:00:19 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/G0DDV-rXMAAaJmt.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G0DDV_rWEAETHjt.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G0DDV_rW8AAtJCo.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G0DDV_fW0AAljSr.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
