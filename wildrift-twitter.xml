@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Sep 2025 01:42:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Sep 2025 02:57:26 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1969220045457781206</link>
+      <description>The Eye of the Void sees almost everything 👁️Use our guide to give him 20/20 vision! </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1969220045457781206</guid>
+      <pubDate>Sat, 20 Sep 2025 02:00:19 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/G1QTMfTXsAAh5Io.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
