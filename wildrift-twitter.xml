@@ -7,38 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Sep 2025 23:20:17 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1970782834701779183</link>
-      <description>We’re making a few adjustments to augments, welcome to patch 6.2i! 📓
-
-https://t.co/9aLbVMFseZ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1970782834701779183</guid>
-      <pubDate>Wed, 24 Sep 2025 09:30:17 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/G1mgiyfWwAE9922.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1970775338587242932</link>
-      <description>Make your inky mark on your enemies with this slaying emote ⚔ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1970775338587242932</guid>
-      <pubDate>Wed, 24 Sep 2025 09:00:30 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/G1mZuZUXEAADs-z.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1970760290779234735</link>
-      <description>True art transcends all senses and barriers 🖌️🎵 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1970760290779234735</guid>
-      <pubDate>Wed, 24 Sep 2025 08:00:42 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/G1mMCkWXAAAy7D7.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Thu, 25 Sep 2025 01:46:49 +0000</lastBuildDate>
   </channel>
 </rss>
