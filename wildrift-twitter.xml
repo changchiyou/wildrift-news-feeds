@@ -7,30 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Sep 2025 23:21:08 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1972232371870031896</link>
-      <description>⚒️ Patch Notes 6.2j ⚒️ 
-
-📓20 new Augments for AAA ARAM including our J series, Sync-Up, and Champions
-
-https://t.co/xzFuLum808 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1972232371870031896</guid>
-      <pubDate>Sun, 28 Sep 2025 09:30:14 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/G17G49gW0AAAlBe.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/1972134217212379381</link>
-      <description>They’ll cross your knees and dot your eyes 🖌️ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1972134217212379381</guid>
-      <pubDate>Sun, 28 Sep 2025 03:00:12 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/G15tnjcXoAEFlWz.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Mon, 29 Sep 2025 01:48:58 +0000</lastBuildDate>
   </channel>
 </rss>
