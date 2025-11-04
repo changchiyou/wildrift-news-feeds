@@ -7,6 +7,29 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Nov 2025 01:51:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 03:13:54 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1985542581380391304</link>
+      <description>They say if you hold a shell to your ear, you can hear your enemy team losing 🐚🌊 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1985542581380391304</guid>
+      <pubDate>Tue, 04 Nov 2025 03:00:15 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/G44QdCFX0AAvatr.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G44QdCtW4AAdSyM.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G44QdCvXcAAZc49.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1985527486491320478</link>
+      <description>Something tells me this fab duo is going to spend a lot of time in river 🧜‍♀️🌊 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1985527486491320478</guid>
+      <pubDate>Tue, 04 Nov 2025 02:00:16 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/G44CuU_XEAAOMhB.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G44CuVxXYAA6tHz.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
