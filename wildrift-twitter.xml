@@ -7,6 +7,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Nov 2025 01:51:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Nov 2025 03:14:21 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1986629695174017469</link>
+      <description>Horse girl, now comes in a deadly version. So pick up your lance, pick up your metal t-shirt and pick up Rell on November 14th UTC.
+🏇 Rell
+🌟 Star Guardian Rell </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1986629695174017469</guid>
+      <pubDate>Fri, 07 Nov 2025 03:00:03 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1986628512921395200/pu/img/bIJ3fMRJxJnA6zVX.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1986614661903425613</link>
+      <description>To play or not to play Rell, that is equestrian 🏇 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1986614661903425613</guid>
+      <pubDate>Fri, 07 Nov 2025 02:00:19 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/G5HfgYCXwAAs4-t.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
