@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Nov 2025 01:54:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 03:20:33 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1990253570621362358</link>
+      <description>Look back to our third and final day of Wild Rounds: SMASH 2025. Catch every epic moment that led to the crowning of this year’s champion: WRLB, WRLK &amp;amp; WRLR 🏆👑 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1990253570621362358</guid>
+      <pubDate>Mon, 17 Nov 2025 03:00:03 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1990252370178068480/pu/img/cUl5gED3k5glT7DZ.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
