@@ -7,20 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Dec 2025 23:23:28 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/1995311907960422729</link>
-      <description>Are you more bark or bite? Find out your battle style December 5th UTC:
-🐅 Battle Tiger Graves
-🐈 Battle Cat Gwen
-🐬 Battle Dolphin Nami
-🐿️ Battle Squirrel Zeri </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/1995311907960422729</guid>
-      <pubDate>Mon, 01 Dec 2025 02:00:04 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1995310692618973184/pu/img/pZrI_QjKcNraDkBg.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Tue, 02 Dec 2025 01:56:17 +0000</lastBuildDate>
   </channel>
 </rss>
