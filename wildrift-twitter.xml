@@ -7,6 +7,30 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2025 01:56:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 03:23:55 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/1996414163543855270</link>
+      <description>You simply can’t scroll past these new skins. Freshly printed December 11th:
+☢️ Kog'Maw
+📜 Shan Hai Scrolls Kog'Maw
+📜 Shan Hai Scrolls Fizz
+📜 Shan Hai Scrolls Gnar </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1996414163543855270</guid>
+      <pubDate>Thu, 04 Dec 2025 03:00:02 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/1996412944465244160/pu/img/PzbVvBlWW4FiwEsV.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/1996399127282770404</link>
+      <description>The ooze that makes your enemies lose 😈 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/1996399127282770404</guid>
+      <pubDate>Thu, 04 Dec 2025 02:00:17 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/G7SibRFWMAE1-h4.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
