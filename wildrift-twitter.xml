@@ -7,16 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Dec 2025 23:25:02 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/2000385337688814035</link>
-      <description>Faker is back for a Masterclass. This time with Zed and a special skin collab 🤩 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2000385337688814035</guid>
-      <pubDate>Mon, 15 Dec 2025 02:00:04 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2000384164273491974/pu/img/JC5jQIXWyrgaw7Nr.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Tue, 16 Dec 2025 02:00:06 +0000</lastBuildDate>
   </channel>
 </rss>
