@@ -7,15 +7,17 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Dec 2025 23:24:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 02:09:44 +0000</lastBuildDate>
     <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2005096414964052453</link>
-      <description>Stealth mode activated ⚡ Can you figure out who just went untargetable? </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2005096414964052453</guid>
-      <pubDate>Sun, 28 Dec 2025 02:00:12 +0000</pubDate>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/2005458787205878227</link>
+      <description>Red, Orange, Blue, Green. Pick your poison January 5th UTC!
+🎨 Chromacrash Singed
+🎨 Chromacrash Twitch </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2005458787205878227</guid>
+      <pubDate>Mon, 29 Dec 2025 02:00:09 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/G9OIkDcXMAA7xeB.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2005457554655072256/pu/img/sDqaY-bDTKECOEC2.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
