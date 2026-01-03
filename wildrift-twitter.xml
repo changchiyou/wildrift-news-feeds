@@ -7,16 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Jan 2026 23:23:45 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2006908364597367049</link>
-      <description>One champ, five times the fun. Whose multiplied forces would you pick? </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2006908364597367049</guid>
-      <pubDate>Fri, 02 Jan 2026 02:00:15 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/G9n4hYGXwAAdnbL.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Sat, 03 Jan 2026 01:56:45 +0000</lastBuildDate>
   </channel>
 </rss>
