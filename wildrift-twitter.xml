@@ -7,16 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Jan 2026 23:24:26 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2007633135635148979</link>
-      <description>Something’s in the air… A new map? A new beginning? *sniff* …wait, hang on, did Smolder set something on fire again?! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2007633135635148979</guid>
-      <pubDate>Sun, 04 Jan 2026 02:00:14 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/G9yLslbXQAAYpHX.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Mon, 05 Jan 2026 02:12:56 +0000</lastBuildDate>
   </channel>
 </rss>
