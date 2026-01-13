@@ -7,17 +7,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Jan 2026 23:21:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 02:00:36 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2010532240577446160</link>
-      <description>New year, new patch, NEW RIFT ⚡Don’t miss out on the key highlights of the new Iona Rift 🌸 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2010532240577446160</guid>
-      <pubDate>Mon, 12 Jan 2026 02:00:14 +0000</pubDate>
+      <link>https://x.com/wildrift/status/2010894632939389273</link>
+      <description>Double ult across the map 🤔 or double ults to end the fight? </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2010894632939389273</guid>
+      <pubDate>Tue, 13 Jan 2026 02:00:15 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/G-bYavcWkAAQByf.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/G-bYav3WYAATmWb.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/G-bYaw0X0AEVKtD.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G-giAwHX0AAQ03Y.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
