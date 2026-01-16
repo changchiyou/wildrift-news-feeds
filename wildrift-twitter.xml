@@ -7,25 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 23:26:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 02:04:48 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2011634511818162181</link>
-      <description>Nothing gives you confidence like knowing your mom is just around the corner, ready to raise hell. Did we mention she's a full grown Imperial Dragon? </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2011634511818162181</guid>
-      <pubDate>Thu, 15 Jan 2026 03:00:16 +0000</pubDate>
+      <link>https://x.com/wildrift/status/2011981804215869526</link>
+      <description>No, this is not a dream. But you’re still welcome to revel 💭🌛 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2011981804215869526</guid>
+      <pubDate>Fri, 16 Jan 2026 02:00:17 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/G-rC7XRWkAA5Q3K.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2011619420167082292</link>
-      <description>We all want to be Ignacarious Gigantareno Rex Le Spes Offerentis when we grow up 🐉🔥 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2011619420167082292</guid>
-      <pubDate>Thu, 15 Jan 2026 02:00:18 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/G-q1M6NXIAAZzjf.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G-v-ycQW0AEyvH_.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G-v-ybpW0AInXBu.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G-v-ycYWAAAVf5e.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G-v-ybrWIAA7ANU.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
