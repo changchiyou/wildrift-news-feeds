@@ -7,33 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jan 2026 23:25:15 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/2011996841303265598</link>
-      <description>Join the fight against eternal darkness on January 22nd UTC and look godlike while doing it.
-🌛 Lunar Guardian Warwick
-🌛 Lunar Guardian Sett
-🌛 Lunar Empress Syndra
-🌝 Lunar Empress Morgana Exquisite Edition </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2011996841303265598</guid>
-      <pubDate>Fri, 16 Jan 2026 03:00:02 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2011995642374004736/pu/img/aMR8MECGkEbBByhZ.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2011981804215869526</link>
-      <description>No, this is not a dream. But you’re still welcome to revel 💭🌛 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2011981804215869526</guid>
-      <pubDate>Fri, 16 Jan 2026 02:00:17 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/G-v-ycQW0AEyvH_.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/G-v-ybpW0AInXBu.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/G-v-ycYWAAAVf5e.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/G-v-ybrWIAA7ANU.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Sat, 17 Jan 2026 01:58:39 +0000</lastBuildDate>
   </channel>
 </rss>
