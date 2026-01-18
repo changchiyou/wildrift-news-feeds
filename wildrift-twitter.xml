@@ -7,15 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Jan 2026 23:23:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jan 2026 02:11:57 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2012344185467080850</link>
-      <description>AAA ARAM is back and it’s packing a punch 💥 Come discover new augments and our new mechanic Flying Swords 🤩 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2012344185467080850</guid>
-      <pubDate>Sat, 17 Jan 2026 02:00:16 +0000</pubDate>
+      <link>https://x.com/wildrift/status/2012706587853443553</link>
+      <description>Last year's patches were packed with adventures and fun moments 🥳 Take this opportunity to look back and tell us about your year on the Rift 🤪 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2012706587853443553</guid>
+      <pubDate>Sun, 18 Jan 2026 02:00:19 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/G-1IXzaX0AErAnw.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G-6R-X1XMAA6aYh.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G-6R-YBXAAA_Ahy.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G-6R-YpWAAA1BhD.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G-6R-Y8WYAA1LOu.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
