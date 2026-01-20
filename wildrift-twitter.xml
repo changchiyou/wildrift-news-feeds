@@ -7,28 +7,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 23:25:53 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/2013084001557262514</link>
-      <description>Whether you like to create a mess on the Rift or clean it up, we got you covered with this season’s Wild Passes going live January 22nd UTC and March 8th UTC respectively.
-🔥 Food Spirits Ziggs
-🧽 Janitor Thresh </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2013084001557262514</guid>
-      <pubDate>Mon, 19 Jan 2026 03:00:01 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2013082800681803776/pu/img/R9R10vtpYV346hPL.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Tue, 20 Jan 2026 02:04:30 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2013068959893880912</link>
-      <description>Our new Wild Passes are cooking 🔥Literally. Get a taste of what Food Spirits Ziggs is preparing before cleaning it all up after with Janitor Thresh 🧽 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2013068959893880912</guid>
-      <pubDate>Mon, 19 Jan 2026 02:00:15 +0000</pubDate>
+      <link>https://x.com/wildrift/status/2013431339102454162</link>
+      <description>📣His Eminence has arrived 📣 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2013431339102454162</guid>
+      <pubDate>Tue, 20 Jan 2026 02:00:13 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/G-_bjNtXEAA66Rd.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/G-_bjMXXcAAxnIy.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G_ElIfhW0AA03fA.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
