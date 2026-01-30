@@ -7,15 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 23:31:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 02:28:33 +0000</lastBuildDate>
     <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/2016692779267621055</link>
-      <description>You wouldn’t say neigh to a new year of horsing around on the Rift would you?! Starting February 4th UTC. </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2016692779267621055</guid>
-      <pubDate>Thu, 29 Jan 2026 02:00:01 +0000</pubDate>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/2017055236758630759</link>
+      <description>Can you feel that breeze? Smells like flowers… and spring?! 🌺 🌸 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2017055236758630759</guid>
+      <pubDate>Fri, 30 Jan 2026 02:00:18 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/amplify_video_thumb/2016387839051890688/img/FCdmhfudgUP1VMuW.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G_4FC9CW4AAuJCy.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/G_4FC-UWcAAiyjL.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
