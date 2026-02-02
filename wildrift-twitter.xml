@@ -7,28 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Feb 2026 22:30:30 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2017870598580355263</link>
-      <description>The sword won’t be the only thing slaying 🥵 Tag us in your photos! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2017870598580355263</guid>
-      <pubDate>Sun, 01 Feb 2026 08:00:15 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HADqnTqXAAA1nM7.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HADqnTrXgAAqmjX.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HADqnTqWIAAFAr0.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2017779998745129321</link>
-      <description>We promised it would be raining rewards, didn’t we?! 🎁 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2017779998745129321</guid>
-      <pubDate>Sun, 01 Feb 2026 02:00:14 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HACYNqmWkAANvhb.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Mon, 02 Feb 2026 02:38:47 +0000</lastBuildDate>
   </channel>
 </rss>
