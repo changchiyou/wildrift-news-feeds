@@ -7,6 +7,17 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Feb 2026 02:39:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 05:05:23 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/2020694201009103011</link>
+      <description>Learn how to confess your love from the best 💗 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2020694201009103011</guid>
+      <pubDate>Mon, 09 Feb 2026 03:00:14 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HAryqkVXAAAjbMc.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HAryqk_XEAA8gS7.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
