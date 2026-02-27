@@ -7,16 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 23:35:30 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2026839700749631842</link>
-      <description>Any way you slice it, this skin will surely put you on a knife’s edge ⚔️ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2026839700749631842</guid>
-      <pubDate>Thu, 26 Feb 2026 02:00:16 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HCDH9oMWwAA6KEd.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Fri, 27 Feb 2026 02:30:38 +0000</lastBuildDate>
   </channel>
 </rss>
