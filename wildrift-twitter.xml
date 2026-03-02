@@ -7,6 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 23:29:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 02:33:12 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/2028289251520008441</link>
+      <description>The dragons have landed. Are you worthy or will you wing it til you make it? 🐉🪽 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2028289251520008441</guid>
+      <pubDate>Mon, 02 Mar 2026 02:00:16 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HCXuUxjW0AIu5fv.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HCXuUxVWwAAlpdM.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HCXuUxYWMAIQcco.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
