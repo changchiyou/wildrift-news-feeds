@@ -7,16 +7,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Mar 2026 23:34:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 02:50:00 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2033000286751482243</link>
-      <description>Show poise in every move. Turn your enemies’ power against them. Check out these tips to master Mel 🪞✨ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2033000286751482243</guid>
-      <pubDate>Sun, 15 Mar 2026 02:00:14 +0000</pubDate>
+      <link>https://x.com/wildrift/status/2033362673379770555</link>
+      <description>Mel’s Rift relationships be like: </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2033362673379770555</guid>
+      <pubDate>Mon, 16 Mar 2026 02:00:14 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/HDaq_GeWgAImekB.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HDaq_H1XIAE6neE.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HDf0kxuWEAAesi3.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
