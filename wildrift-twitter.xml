@@ -7,6 +7,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Mar 2026 05:01:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 09:10:43 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/2038073677468561831</link>
+      <description>The best way to win is to have your opponents in stitches! Get your silly faces on March 27th UTC. 
+🐶 Pug'Maw 
+🏰 Turret Cosplay Pantheon
+🍍 Durian Defender Rammus
+🤓 Funny Alistar </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2038073677468561831</guid>
+      <pubDate>Sun, 29 Mar 2026 02:00:04 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2038072457152634880/pu/img/cIkhgi-qPGVo0uui.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
