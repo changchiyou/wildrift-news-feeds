@@ -7,28 +7,32 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Apr 2026 23:40:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 02:43:24 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2039417655568806303</link>
-      <description>Wait, did Funny Alistair get his horns on my computer again?!⚠️ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2039417655568806303</guid>
-      <pubDate>Wed, 01 Apr 2026 19:00:34 +0000</pubDate>
+      <link>https://x.com/wildrift/status/2039530813130215849</link>
+      <description>It might be entertainment, but for them it’s the fight for their soul 📺🎥 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2039530813130215849</guid>
+      <pubDate>Thu, 02 Apr 2026 02:30:13 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/HE13jJ-WUAA4nLs.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HE13jN1WQAACAPL.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HE3edygX0AErzc0.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HE3edygW4AAFs8R.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HE3edyhWAAAD-wW.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HE3edyWWcAAKBAT.jpg" medium="image"/>
       </media:group>
     </item>
     <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2039160881188045196</link>
-      <description>This blade trinity needs no sharpening. Get some AAA ARAM rune inspo ⚔️ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2039160881188045196</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:14 +0000</pubDate>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/2039523219137253873</link>
+      <description>Have you got what it takes to risk it all and win your soul’s greatest desire? Get in the fight, live on April 9th UTC.
+👊 Soul Fighter Viego 
+👊 Soul Fighter Senna
+👊 Soul Fighter Ambessa
+👊 Soul Fighter Viktor </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2039523219137253873</guid>
+      <pubDate>Thu, 02 Apr 2026 02:00:02 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/HEyOA8PWgAABo_g.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HEyOA7oW4AAULQ9.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HEyOA7-WoAAj8bm.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2039522011236466688/pu/img/QaQNKCSukKYd-LmD.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
