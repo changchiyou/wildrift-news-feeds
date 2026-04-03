@@ -7,6 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Apr 2026 05:10:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 07:16:56 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/2039948517511492050</link>
+      <description>Leader in battle, or in government-who better to learn from than K’Sante, who takes on the Rift April 9th UTC. Get your leadership tutorial Nazumah-style here 💪🏿😤 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2039948517511492050</guid>
+      <pubDate>Fri, 03 Apr 2026 06:10:01 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HE9aTvbbkAEdwQh.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
