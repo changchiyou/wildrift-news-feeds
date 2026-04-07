@@ -7,30 +7,29 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2026 23:41:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 02:48:49 +0000</lastBuildDate>
     <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2040987921340125587</link>
-      <description>This patch’s Ranked rewards and Wild Passes will take the soul of your battles to the next level 👊📈 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2040987921340125587</guid>
-      <pubDate>Mon, 06 Apr 2026 03:00:14 +0000</pubDate>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/2041342724721287260</link>
+      <description>Speeding is totally worth it in this new patch. Come get your newest gear on April 9th and 10th UTC!
+👊 Soul Fighter Varus
+🪈 Glorious Eminence Jax
+🚂 Choo-Choo Ornn </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2041342724721287260</guid>
+      <pubDate>Tue, 07 Apr 2026 02:30:06 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/HFMLsodWwAAQZ-v.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HFMLsnpWAAAIjlv.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HFMLsnjXEAEaYbE.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HFMLsnqXUAEiU0D.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2041341491247714304/pu/img/-B0-zDgZV6j2Zl2N.jpg" medium="image"/>
       </media:group>
     </item>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2040980367474086184</link>
-      <description>Defending your city has never been this yummy and it comes with desert 😤🏜️ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2040980367474086184</guid>
-      <pubDate>Mon, 06 Apr 2026 02:30:13 +0000</pubDate>
+      <link>https://x.com/wildrift/status/2041335213591032166</link>
+      <description>🚥 Good racers still need signals they can trust 🚦To make sure you don’t miss the race start and can ward in style, we’ve customized the Rift a bit for ya. </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2041335213591032166</guid>
+      <pubDate>Tue, 07 Apr 2026 02:00:15 +0000</pubDate>
       <media:group>
-        <media:content url="https://pbs.twimg.com/media/HFME02XWgAAWByZ.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HFME0yqXAAAmSfl.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HFME0z4WkAAClfJ.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HFRHjxrWgAAfR1m.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HFRHjwBXEAA74CH.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
