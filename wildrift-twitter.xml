@@ -7,60 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Apr 2026 23:41:52 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2041448455449505942</link>
-      <description>⚒️ Patch Notes 7.1 ⚒️ 
-💪🏿K’Sante crashes onto the Rift! 
-📓Rune updates and balance changes 
-👊Soul Fighter skins 
-🚗… and more! 
-
-https://t.co/JUx69eCUFw </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2041448455449505942</guid>
-      <pubDate>Tue, 07 Apr 2026 09:30:14 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HFSujVZXYAEBEEp.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/2041350262703403499</link>
-      <description>Get ready for a rookie and some old faces in new garments joining the race on April 9th UTC! Oh and due to last minute costume change Hearsteel K’Sante will enter the stage on April 23rd UTC.
-😤 K'sante, 
-🎤 Heartsteel K'Sante
-⚔️ Psy Ops Master Yi (Special Edition)
-🎧 Cyber Pop </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2041350262703403499</guid>
-      <pubDate>Tue, 07 Apr 2026 03:00:03 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2041349041246654464/pu/img/WbUEFuPJ2YDwWQSy.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/2041342724721287260</link>
-      <description>Speeding is totally worth it in this new patch. Come get your newest gear on April 9th and 10th UTC!
-👊 Soul Fighter Varus
-🪈 Glorious Eminence Jax
-🚂 Choo-Choo Ornn </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2041342724721287260</guid>
-      <pubDate>Tue, 07 Apr 2026 02:30:06 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2041341491247714304/pu/img/-B0-zDgZV6j2Zl2N.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2041335213591032166</link>
-      <description>🚥 Good racers still need signals they can trust 🚦To make sure you don’t miss the race start and can ward in style, we’ve customized the Rift a bit for ya. </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2041335213591032166</guid>
-      <pubDate>Tue, 07 Apr 2026 02:00:15 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HFRHjxrWgAAfR1m.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HFRHjwBXEAA74CH.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Wed, 08 Apr 2026 02:49:56 +0000</lastBuildDate>
   </channel>
 </rss>
