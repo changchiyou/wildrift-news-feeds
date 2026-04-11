@@ -7,26 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2026 23:40:48 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X</title>
-      <link>https://x.com/wildrift/status/2042618375554138153</link>
-      <description>We’ve been monitoring your feedback since the 7.1 launch and are rolling out some adjustments. We’ll be removing ARAM’s racing start and teleport track, along with some additional tweaks to AAA ARAM. These changes will go live later today at 8 PM PST.
-
-https://t.co/Qqf9tGIga1</description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2042618375554138153</guid>
-      <pubDate>Fri, 10 Apr 2026 14:59:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2042422401405743151</link>
-      <description>Walls and frontlines-no longer just NPCs. Start crashing through and using them with K’Sante 🪨😤 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2042422401405743151</guid>
-      <pubDate>Fri, 10 Apr 2026 02:00:21 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HFgkWYSXMAAdl24.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HFgkWZNWgAAp5h8.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Sat, 11 Apr 2026 02:40:46 +0000</lastBuildDate>
   </channel>
 </rss>
