@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Apr 2026 06:20:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 09:09:31 +0000</lastBuildDate>
     <item>
       <title>None (@None) on X</title>
       <link>https://x.com/wildrift/status/2046061348669280665</link>
@@ -25,10 +25,21 @@
       </media:group>
     </item>
     <item>
-      <title>None (@None) on X</title>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
       <link>https://x.com/wildrift/status/2046046196062458218</link>
+      <description>What is a Grand Prix without its drivers? Starting April 30th UTC. #WildRiftxPorsche
+ 💜 Prestige Select Neon Daredevil Kai’Sa
+ 🏎️ Neon Daredevil Kai’Sa
+ 🏎️ Neon Daredevil Hecarim
+ 🏎️ Neon Daredevil Irelia
+ 🏎️ Neon Daredevil Aurora
+ 🏎️ Neon Daredevil Zed
+ 🏎️ Neon Daredevil Gragas </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/2046046196062458218</guid>
       <pubDate>Mon, 20 Apr 2026 02:00:01 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2046045012249509888/pu/img/sTfh67YDvgTD7z16.jpg" medium="image"/>
+      </media:group>
     </item>
   </channel>
 </rss>
