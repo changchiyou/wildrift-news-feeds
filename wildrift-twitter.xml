@@ -7,12 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Apr 2026 17:02:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 19:00:19 +0000</lastBuildDate>
     <item>
-      <title>None (@None) on X</title>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/2047495854332801508</link>
+      <description>Snacks at the wheel are a must in this race 🥵Get your Grand Prix Keys for a chance to eat with our special Porsche collab skin 💜#WildRiftxPorsche </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/2047495854332801508</guid>
       <pubDate>Fri, 24 Apr 2026 02:00:26 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HGoqoLzW8AAeimP.jpg" medium="image"/>
+      </media:group>
     </item>
   </channel>
 </rss>
