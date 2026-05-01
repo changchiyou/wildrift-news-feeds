@@ -7,6 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 May 2026 16:04:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 18:02:30 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/2050259325096955938</link>
+      <description>We’re launching the Wild Rift Partner Program, a way for us to better support and spotlight creators shaping the Rift. Learn more ⬇️
+
+https://t.co/DhF0sdYIeQ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2050259325096955938</guid>
+      <pubDate>Fri, 01 May 2026 17:01:29 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HHP7_bnW0AAfcf4.jpg" medium="image"/>
+      </media:group>
+    </item>
   </channel>
 </rss>
