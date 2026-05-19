@@ -7,30 +7,6 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 May 2026 22:06:25 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2056200655790866710</link>
-      <description>His fate might have been split into fragments, but they’re all united in one goal: outracing his enemies ⚡💨 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2056200655790866710</guid>
-      <pubDate>Mon, 18 May 2026 02:30:13 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HIkXmSKWcAAJ_Eq.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HIkXmSXX0AAJktB.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HIkXmSWWwAAfBc_.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HIkXmSQXkAA3KtL.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2056193114088382967</link>
-      <description>He’s been around the planet once or twice 🏎️💨 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2056193114088382967</guid>
-      <pubDate>Mon, 18 May 2026 02:00:15 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HIkQvWVXgAA9ZKO.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HIkQvWCXQAANvun.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Tue, 19 May 2026 00:13:03 +0000</lastBuildDate>
   </channel>
 </rss>
