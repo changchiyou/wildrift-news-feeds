@@ -7,28 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 May 2026 11:02:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 13:43:44 +0000</lastBuildDate>
     <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <title>None (@None) on X</title>
       <link>https://x.com/wildrift/status/2056925437561852058</link>
-      <description>True mastery can have many faces. Get collecting to show off some ✨special features✨ on the racing Rift 🏎️ </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/2056925437561852058</guid>
       <pubDate>Wed, 20 May 2026 02:30:14 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HIuqyNeXIAAfGIs.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HIuqyNRXkAAfLLV.jpg" medium="image"/>
-      </media:group>
     </item>
     <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <title>None (@None) on X</title>
       <link>https://x.com/wildrift/status/2056917915027337553</link>
-      <description>They make meddling in time or dreams fashion. Look it up 😜 </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/2056917915027337553</guid>
       <pubDate>Wed, 20 May 2026 02:00:21 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HIuj8PcWgAEyyoL.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HIuj8PSX0AA4Itw.jpg" medium="image"/>
-      </media:group>
     </item>
   </channel>
 </rss>
