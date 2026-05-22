@@ -7,12 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 12:24:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 15:51:19 +0000</lastBuildDate>
     <item>
-      <title>None (@None) on X</title>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
       <link>https://x.com/wildrift/status/2057642606465618016</link>
+      <description>One blade–many faces 🗡️ Get a first look at all Neon Daredevil Master Yi’s looks before he starts the race on May 22nd UTC 🏎️ </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/2057642606465618016</guid>
       <pubDate>Fri, 22 May 2026 02:00:01 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/amplify_video_thumb/2057338629115232257/img/uFtm871FtssYg1CU.jpg" medium="image"/>
+      </media:group>
     </item>
   </channel>
 </rss>
