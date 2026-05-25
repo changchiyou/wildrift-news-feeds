@@ -7,12 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 May 2026 14:11:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 17:09:50 +0000</lastBuildDate>
     <item>
-      <title>None (@None) on X</title>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/2058729820213674434</link>
+      <description>Pride month starts next week! Showing up for one another in and out of the game is what Wild Rift and our community stand for ❤️🧡💛💚💙💜 </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/2058729820213674434</guid>
       <pubDate>Mon, 25 May 2026 02:00:13 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HJIT3GQXIAAW5MG.jpg" medium="image"/>
+      </media:group>
     </item>
   </channel>
 </rss>
