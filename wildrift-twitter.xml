@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 May 2026 10:01:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 14:28:34 +0000</lastBuildDate>
     <item>
-      <title>None (@None) on X</title>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/2059567865343143986</link>
+      <description>⚒️ Patch Notes 7.1f⚒️ 
+📓Balance Adjustments 
+
+https://t.co/p2GzB3SHSQ </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/2059567865343143986</guid>
       <pubDate>Wed, 27 May 2026 09:30:18 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HJUODywXIAAXjwR.jpg" medium="image"/>
+      </media:group>
     </item>
   </channel>
 </rss>
