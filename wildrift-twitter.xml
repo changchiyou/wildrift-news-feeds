@@ -7,12 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 May 2026 21:54:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 23:19:20 +0000</lastBuildDate>
     <item>
-      <title>None (@None) on X</title>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/2060186924397052379</link>
+      <description>Dunking on your enemy team just hits harder in Mecha 🔥🦾 </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/2060186924397052379</guid>
       <pubDate>Fri, 29 May 2026 02:30:13 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HJdBFoxWwAUbjQs.jpg" medium="image"/>
+      </media:group>
     </item>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
@@ -25,10 +29,15 @@
       </media:group>
     </item>
     <item>
-      <title>None (@None) on X</title>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/2060164311817842852</link>
+      <description>WHO LET THE CATS OUT? Oh well, guess they just want some fun. Can you spot them all in your next match? 😼 </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/2060164311817842852</guid>
       <pubDate>Fri, 29 May 2026 01:00:22 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HJcshhSXAAArMKk.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HJcshhgWkAcFcdu.jpg" medium="image"/>
+      </media:group>
     </item>
   </channel>
 </rss>
