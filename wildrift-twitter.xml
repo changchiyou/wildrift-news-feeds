@@ -7,22 +7,22 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 May 2026 04:05:09 +0000</lastBuildDate>
-    <item>
-      <title>None (@None) on X</title>
-      <link>https://x.com/wildrift/status/2060186924397052379</link>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2060186924397052379</guid>
-      <pubDate>Fri, 29 May 2026 02:30:13 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 29 May 2026 08:44:02 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/2060186924397052379</link>
+      <description>Dunking on your enemy team just hits harder in Mecha 🔥🦾 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2060186924397052379</guid>
+      <pubDate>Fri, 29 May 2026 02:30:13 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HJdBFoxWwAUbjQs.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>None (@None) on X</title>
       <link>https://x.com/wildrift/status/2060171820657938621</link>
-      <description>The cats went wild for the Meowtastic Arcade pre-testing. Join them June 1st 😼🥳 </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/2060171820657938621</guid>
       <pubDate>Fri, 29 May 2026 01:30:12 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HJczWe3WwAMJ1Ji.jpg" medium="image"/>
-      </media:group>
     </item>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
