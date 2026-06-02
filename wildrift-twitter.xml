@@ -7,40 +7,12 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2026 23:05:58 +0000</lastBuildDate>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2061281655608807548</link>
-      <description>Think you’re fast? Prove it ⚡
-
-Show us your fastest Wild Rift moments in under 60 seconds: 
-⚔️Fastest pentakill 
-🐉Fastest Dragon steal 
-😤Fastest 1 HP escape 
-
-https://t.co/eyTXY7ebTR </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2061281655608807548</guid>
-      <pubDate>Mon, 01 Jun 2026 03:00:18 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HJskveyXEAos0U-.jpg" medium="image"/>
-      </media:group>
-    </item>
+    <lastBuildDate>Tue, 02 Jun 2026 04:22:42 +0000</lastBuildDate>
     <item>
       <title>None (@None) on X</title>
-      <link>https://x.com/wildrift/status/2061266566784647241</link>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2061266566784647241</guid>
-      <pubDate>Mon, 01 Jun 2026 02:00:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2061251451590942825</link>
-      <description>That checkered flag is approaching fast! Make sure you have the best setup for those last few laps of the patch 🏁🏎️ </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2061251451590942825</guid>
-      <pubDate>Mon, 01 Jun 2026 01:00:16 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HJsJRX-XYAIoy1c.jpg" medium="image"/>
-        <media:content url="https://pbs.twimg.com/media/HJsJRYPXgAAqsLn.jpg" medium="image"/>
-      </media:group>
+      <link>https://x.com/wildrift/status/2061628935431975334</link>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2061628935431975334</guid>
+      <pubDate>Tue, 02 Jun 2026 02:00:16 +0000</pubDate>
     </item>
   </channel>
 </rss>
