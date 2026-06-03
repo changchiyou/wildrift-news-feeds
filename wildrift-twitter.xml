@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jun 2026 18:48:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 21:53:11 +0000</lastBuildDate>
     <item>
       <title>None (@None) on X</title>
       <link>https://x.com/wildrift/status/2062092583590056305</link>
@@ -15,14 +15,10 @@
       <pubDate>Wed, 03 Jun 2026 08:42:38 +0000</pubDate>
     </item>
     <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <title>None (@None) on X</title>
       <link>https://x.com/wildrift/status/2061991290145734855</link>
-      <description>Bet you can't get it on the first try 📷 </description>
       <guid isPermaLink="false">https://x.com/wildrift/status/2061991290145734855</guid>
       <pubDate>Wed, 03 Jun 2026 02:00:08 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2061990069792018433/pu/img/PvcFzfUSsEl5Zrhe.jpg" medium="image"/>
-      </media:group>
     </item>
   </channel>
 </rss>
