@@ -46,6 +46,7 @@ jobs:
           path: ./SESSION.tw_session
           key: SESSION.tw_session
       - name: Run twitter.py
+        continue-on-error: true
         run: |
           python twitter.py
       - name: Save updated tw_session cache

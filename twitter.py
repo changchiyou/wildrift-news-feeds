@@ -70,7 +70,7 @@ async def generate_twitter_rss():
             fe = fg.add_entry()
             tweet_url = f'https://x.com/{username}/status/{tweet.id}'
 
-            result = parse_tweet(await scrape_tweet(tweet_url))
+            result = parse_tweet(await scrape_tweet(tweet_url, cookie_string=cookie_value))
             logging.info(f"Scraped tweet ID `{tweet.id}`")
 
             reply_to = f"reply to @{result['in_reply_to_screen_name']} " if result['in_reply_to_screen_name'] else ""
@@ -157,7 +157,7 @@ def parse_tweet(data: dict) -> dict:
     logging.info("Parsed tweet data successfully")
     return result
 
-async def scrape_tweet(url: str) -> dict:
+async def scrape_tweet(url: str, cookie_string: str = "") -> dict:
     """
     Scrape a single tweet page for Tweet thread e.g.:
     Return parent tweet, reply tweets and recommended tweets
@@ -174,11 +174,28 @@ async def scrape_tweet(url: str) -> dict:
             _xhr_calls.append(response)
         return response
 
+    # Parse cookie string into Playwright cookie format
+    playwright_cookies = []
+    if cookie_string:
+        for cookie in cookie_string.split(";"):
+            cookie = cookie.strip()
+            if "=" in cookie:
+                name, _, value = cookie.partition("=")
+                playwright_cookies.append({
+                    "name": name.strip(),
+                    "value": value.strip(),
+                    "domain": ".x.com",
+                    "path": "/",
+                })
+
     async with async_playwright() as pw:
         browser = await pw.firefox.launch()
         logging.info("Launched Firefox browser")
         context = await browser.new_context(viewport={"width": 1920, "height": 1080})
         logging.info("Created new browser context")
+        if playwright_cookies:
+            await context.add_cookies(playwright_cookies)
+            logging.info("Loaded authentication cookies into browser context")
         page = await context.new_page()
 
         # enable background request intercepting:
