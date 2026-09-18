@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>League of Legends: Wild Rift (@wildrift) / Twitter</title>
+    <link>https://x.com/wildrift</link>
+    <description>League of Legends: Wild Rift (@wildrift) / Twitter</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 18 Sep 2026 21:31:15 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/2100781922163060855</link>
+      <description>New skins, more rewards. Log in on September 22nd UTC and see what’s waiting for you ✨ </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2100781922163060855</guid>
+      <pubDate>Fri, 18 Sep 2026 03:00:15 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HSd6BhBXIAAIDI9.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/2100766767031230968</link>
+      <description>Dynamos, come out to play! The Supreme Cells fight it out on September 29th UTC.
+🍥🪓Supreme Cells Darius
+🍥⚡Supreme Cells Samira </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2100766767031230968</guid>
+      <pubDate>Fri, 18 Sep 2026 02:00:02 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2100765575681024000/pu/img/PEB1ke3ttbXevv1w.jpg" medium="image"/>
+      </media:group>
+    </item>
+  </channel>
+</rss>
