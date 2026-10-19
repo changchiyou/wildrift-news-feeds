@@ -46,9 +46,16 @@ jobs:
           path: ./SESSION.tw_session
           key: SESSION.tw_session
       - name: Run twitter.py
-        continue-on-error: true
+        # Never fail the job: the tweet feed is one source among others.
+        # The exit code is recorded for the watchdog instead of being masked.
+        id: twitter
         run: |
-          python twitter.py
+          rc=0
+          python twitter.py || rc=$?
+          echo "rc=$rc" >> "$GITHUB_OUTPUT"
+          if [ "$rc" -ne 0 ]; then
+            echo "::warning::twitter.py failed with rc=$rc (deploy continues; twitter watchdog will alert)"
+          fi
       - name: Save updated tw_session cache
         if: always()
         uses: actions/cache@v3
@@ -57,6 +64,40 @@ jobs:
           key: SESSION.tw_session
           restore-keys: |
             tw-session-
+      - name: Record twitter feed status
+        if: always()
+        run: |
+          mkdir -p public
+          git fetch -q "https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git" gh-pages || true
+          git show FETCH_HEAD:tweets-status.json > prev_status.json 2>/dev/null || echo '{"history":[]}' > prev_status.json
+          RC='${{ steps.twitter.outputs.rc }}'
+          python3 - "${RC:-missing}" <<'PY'
+          import datetime, json, os, sys
+          try:
+              rc = int(sys.argv[1])
+          except ValueError:
+              rc = None  # step was skipped or produced no rc
+          try:
+              hist = json.load(open("prev_status.json")).get("history", [])
+          except Exception:
+              hist = []
+          hist = hist[-47:]
+          ts = datetime.datetime.now(datetime.timezone.utc).isoformat()
+          hist.append({
+              "run_id": os.environ["GITHUB_RUN_ID"],
+              "ts": ts,
+              "rc": rc,
+          })
+          run_url = "{}/{}/actions/runs/{}".format(
+              os.environ["GITHUB_SERVER_URL"], os.environ["GITHUB_REPOSITORY"], os.environ["GITHUB_RUN_ID"]
+          )
+          out = {"updated_at": ts, "run_id": os.environ["GITHUB_RUN_ID"], "run_url": run_url, "last_rc": rc, "history": hist}
+          json.dump(out, open("public/tweets-status.json", "w"), indent=1)
+          print("recorded twitter status rc={} for run {}".format(rc, os.environ["GITHUB_RUN_ID"]))
+          PY
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
       - name: Deploy to GitHub Pages
         run: |
           git config user.name $GITHUB_ACTOR

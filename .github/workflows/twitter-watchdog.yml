@@ -1,0 +1,91 @@
+name: Twitter feed watchdog
+
+# Monitors the twitter.py producer WITHOUT being part of the release pipeline.
+# Fires right after every publish-feeds run (workflow_run) plus a fallback
+# schedule so a completely silent pipeline is still detected.
+#
+# Alert policy (dedup state = this watchdog's own previous run conclusion):
+#   first failure in a streak  -> Discord @alert + RED run (GitHub email)
+#   ongoing failure            -> silent GREEN (no email spam)
+#   still down at 24/72 streak -> Discord escalation + RED again (daily ping)
+#   recovery                   -> Discord @recovery + GREEN
+on:
+  workflow_run:
+    workflows: ["Publish RSS feeds to GitHub Pages"]
+    types: [completed]
+  schedule:
+    - cron: "30 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: twitter-watchdog
+  cancel-in-progress: false
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Evaluate producer status
+        id: check
+        run: |
+          python3 check_twitter_status.py | tee decision.json
+
+      - name: Decide action
+        id: decide
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATE: ${{ steps.check.outputs.state }}
+          STREAK: ${{ steps.check.outputs.streak }}
+        run: |
+          PREV=$(gh api \
+            "repos/${{ github.repository }}/actions/workflows/twitter-watchdog.yml/runs?per_page=10" \
+            --jq '[.workflow_runs[] | select(.id != ${{ github.run_id }} and .status == "completed")] | .[0].conclusion // "none"')
+          echo "prev_watchdog=$PREV state=$STATE streak=$STREAK"
+
+          ACTION=ok
+          if [ "$STATE" = "failing" ] && [ "$PREV" != "failure" ]; then
+            ACTION=alert
+          elif [ "$STATE" = "failing" ]; then
+            ACTION=ongoing
+            # Escalate once per milestone so a long outage keeps resurfacing.
+            if [ "$STREAK" -eq 24 ] || [ "$STREAK" -eq 72 ]; then
+              ACTION=escalate
+            fi
+          elif [ "$PREV" = "failure" ]; then
+            ACTION=recover
+          fi
+          echo "action=$ACTION" >> "$GITHUB_OUTPUT"
+
+      - name: Notify Discord
+        if: steps.decide.outputs.action != 'ok' && steps.decide.outputs.action != 'ongoing'
+        env:
+          ACTION: ${{ steps.decide.outputs.action }}
+          REASON: ${{ steps.check.outputs.reason }}
+          STREAK: ${{ steps.check.outputs.streak }}
+          RUN_URL: ${{ steps.check.outputs.run_url }}
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          case "$ACTION" in
+            alert)     MSG="🔴 **wildrift twitter feed DOWN** — $REASON (consecutive failures: $STREAK). Release pipeline is unaffected. Producer run: $RUN_URL" ;;
+            escalate)  MSG="🔴⏰ twitter feed STILL DOWN — $STREAK consecutive failures. $REASON Producer run: $RUN_URL" ;;
+            recover)   MSG="🟢 twitter feed recovered after $STREAK failed run(s). Last producer run: $RUN_URL" ;;
+          esac
+          echo "$MSG"
+          if [ -z "$WEBHOOK" ]; then
+            echo "::warning::DISCORD_WEBHOOK_URL secret is not set; Discord notification skipped"
+            exit 0
+          fi
+          jq -n --arg c "$MSG" '{content: $c}' \
+            | curl -fsS -H 'Content-Type: application/json' -d @- "$WEBHOOK"
+
+      - name: Surface failure on GitHub
+        if: steps.decide.outputs.action == 'alert' || steps.decide.outputs.action == 'escalate'
+        run: |
+          echo "::error::twitter producer failing: ${{ steps.check.outputs.reason }} (streak ${{ steps.check.outputs.streak }})"
+          exit 1
