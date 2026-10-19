@@ -16,6 +16,11 @@ on:
   schedule:
     - cron: "30 */6 * * *"
   workflow_dispatch:
+    inputs:
+      test_notify:
+        type: boolean
+        default: false
+        description: Send a TEST Discord message and exit green (no state change)
 
 permissions:
   actions: read
@@ -30,6 +35,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Notification self-test
+        if: github.event_name == 'workflow_dispatch' && inputs.test_notify
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          [ -n "$WEBHOOK" ] || { echo "::error::DISCORD_WEBHOOK_URL secret is empty/unset"; exit 1; }
+          jq -n --arg c "✅ twitter watchdog self-test: Discord webhook is wired correctly ($GITHUB_REPOSITORY)" \
+            '{content: $c}' \
+            | curl -fsS -H 'Content-Type: application/json' -d @- "$WEBHOOK"
+          echo "test notification sent"
+          exit 0
 
       - name: Evaluate producer status
         id: check
