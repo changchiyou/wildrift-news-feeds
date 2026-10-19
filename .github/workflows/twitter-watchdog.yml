@@ -34,7 +34,18 @@ jobs:
       - name: Evaluate producer status
         id: check
         run: |
-          python3 check_twitter_status.py | tee decision.json
+          # Pages deploy lags the pipeline finish by ~1-2 min; retry before
+          # declaring the status file missing.
+          for i in $(seq 1 16); do
+            if python3 check_twitter_status.py | tee decision.json && grep -q '"state": "healthy"' decision.json; then
+              break
+            fi
+            if ! grep -q 'status file unavailable' decision.json; then
+              break  # real verdict (failing rc / stale), no point retrying
+            fi
+            echo "status file not live yet (attempt $i), retrying in 20s..."
+            sleep 20
+          done
 
       - name: Decide action
         id: decide
