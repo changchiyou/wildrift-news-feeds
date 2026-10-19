@@ -42,8 +42,11 @@ async def generate_twitter_rss():
         logging.info(f"Fetching tweets from user `{username}`")
 
         # Advanced Search - X/Twitter
-        today_date = datetime.datetime.now().strftime(r'%Y-%m-%d')
-        query = f'(from:{username}) since:{today_date}'
+        # Rolling 7-day window: `since:` is UTC-day granular; a same-day-only
+        # query yields an empty feed most hours and drops yesterday's posts
+        # at midnight. Feed readers dedupe by entry id, so overlap is safe.
+        since_date = (datetime.datetime.now() - datetime.timedelta(days=7)).strftime(r'%Y-%m-%d')
+        query = f'(from:{username}) since:{since_date}'
         logging.info(f"Search query: `{query}`")
         tweets = await twitter.search(query)
 
