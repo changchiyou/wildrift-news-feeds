@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 23:28:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 04:10:37 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/2112363176520020166</link>
+      <description>They’re only happy when it reigns. The Grand Coronation draws nigh on October 23rd UTC.
+⚔️👑Prestige Battle Queen Zyra
+⚔️👑Battle Queen Sivir
+⚔️👑Battle Queen Nidalee
+⚔️👑Battle Queen Kalista </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2112363176520020166</guid>
+      <pubDate>Tue, 20 Oct 2026 02:00:01 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2112361997798875137/pu/img/kh22mvRn3pfheGRi.jpg" medium="image"/>
+      </media:group>
+    </item>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
       <link>https://x.com/wildrift/status/2112015888706687332</link>
@@ -75,18 +89,6 @@ https://t.co/OvNbWpHglq </description>
       <pubDate>Wed, 14 Oct 2026 09:30:13 +0000</pubDate>
       <media:group>
         <media:content url="https://pbs.twimg.com/media/HUlMnlXX0AACx0Q.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/2109841569884819556</link>
-      <description>Damnation meets salvation on October 16th UTC.
-💨🏍️Prestige Select High Noon Yone
-🗡️🐦‍🔥Prestige Brave Phoenix Xayah </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2109841569884819556</guid>
-      <pubDate>Tue, 13 Oct 2026 03:00:03 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2109840369877725184/pu/img/66R0FED1gKUoQrqd.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
