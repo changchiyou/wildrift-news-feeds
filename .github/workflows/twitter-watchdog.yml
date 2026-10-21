@@ -9,6 +9,11 @@ name: Twitter feed watchdog
 #   ongoing failure            -> silent GREEN (no email spam)
 #   still down at 24/72 streak -> Discord escalation + RED again (daily ping)
 #   recovery                   -> Discord @recovery + GREEN
+#
+# A stale/missing tweets-status.json alone is NOT enough to alert: GitHub
+# Actions delays scheduled runs by hours under load, and Pages keeps serving
+# the previous build while publishing. Cross-check the producer's real runs
+# through the API before blaming the pipeline.
 on:
   workflow_run:
     workflows: ["Publish RSS feeds to GitHub Pages"]
@@ -33,6 +38,8 @@ concurrency:
 jobs:
   watchdog:
     runs-on: ubuntu-latest
+    env:
+      PRODUCER_RUNS_URL: ${{ github.server_url }}/${{ github.repository }}/actions/workflows/pages.yml
     steps:
       - uses: actions/checkout@v4
 
@@ -51,30 +58,110 @@ jobs:
       - name: Evaluate producer status
         id: check
         run: |
-          # Pages deploy lags the pipeline finish by ~1-2 min; retry before
-          # declaring the status file missing.
-          for i in $(seq 1 16); do
-            if python3 check_twitter_status.py | tee decision.json && grep -q '"state": "healthy"' decision.json; then
-              break
-            fi
-            if ! grep -q 'status file unavailable' decision.json; then
-              break  # real verdict (failing rc / stale), no point retrying
-            fi
-            echo "status file not live yet (attempt $i), retrying in 20s..."
-            sleep 20
+          # Pages publish lags pipeline completion by 1-2 min and serves the
+          # PREVIOUS build meanwhile. When a producer run just completed,
+          # wait until its own record (status.run_id) is live before trusting
+          # any stale/missing verdict.
+          EXPECTED="${{ github.event.workflow_run.id }}"
+          for i in $(seq 1 12); do
+            python3 check_twitter_status.py | tee decision.json
+            STATE=$(jq -r '.state' decision.json)
+            REASON=$(jq -r '.reason' decision.json)
+            RID=$(jq -r '.run_id' decision.json)
+            if [ "$STATE" = "healthy" ]; then break; fi
+            case "$REASON" in
+              *"twitter.py exited rc"*) break ;;  # genuine failure: no retry
+            esac
+            if [ -z "$EXPECTED" ] || [ "$RID" = "$EXPECTED" ]; then break; fi
+            echo "run $EXPECTED not visible in status file yet (attempt $i) — retrying in 30s"
+            sleep 30
           done
+          {
+            echo "state=$STATE"
+            echo "reason=$REASON"
+            echo "streak=$(jq -r '.streak' decision.json)"
+            echo "run_url=$(jq -r '.run_url' decision.json)"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Cross-check producer against GitHub API
+        if: steps.check.outputs.state == 'failing'
+        id: xcheck
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REASON: ${{ steps.check.outputs.reason }}
+        run: |
+          # A real twitter.py failure needs no second opinion.
+          case "$REASON" in
+            *"twitter.py exited rc"*) exit 0 ;;
+          esac
+          gh api "repos/${{ github.repository }}/actions/workflows/pages.yml/runs?branch=main&per_page=20" \
+            --jq '[.workflow_runs[] | select(.status=="completed") | {updated_at, conclusion}]' > runs.json
+          python3 - "$REASON" <<'PY' | tee xcheck.json
+          import json, sys
+          from datetime import datetime, timezone
+
+          reason = sys.argv[1]
+          runs = json.load(open("runs.json"))
+          now = datetime.now(timezone.utc)
+          ages = [
+              (now - datetime.fromisoformat(r["updated_at"].replace("Z", "+00:00"))).total_seconds() / 60
+              for r in runs if r["conclusion"] == "success"
+          ]
+          last = min(ages) if ages else None
+
+          # Verdicts:
+          #   <=45 min ago   -> Pages publish lag / in flight: healthy
+          #   45 min .. 4 h  -> producer ran but never updated the status file:
+          #                     record/deploy path broken: STILL FAILING
+          #   4 h .. 36 h    -> GitHub delayed/skipped the schedule itself:
+          #                     not the pipeline's fault: healthy
+          #   >36 h or none  -> schedule disabled/deleted or fully broken: FAILING
+          override = {}
+          if last is not None and last <= 45:
+              override = {"state": "healthy",
+                          "reason": f"GitHub Pages publish lag: producer run finished {int(last)} min ago, status file not live yet"}
+          elif last is not None and last <= 4 * 60:
+              reason = (f"producer run finished {int(last)} min ago but tweets-status.json "
+                        "was never updated (record/deploy path broken)")
+          elif last is not None and last <= 36 * 60:
+              override = {"state": "healthy",
+                          "reason": f"GitHub Actions delayed scheduled runs (last successful producer run {int(last / 60)}h ago); twitter itself is healthy"}
+          else:
+              reason = "no successful producer run for " + (f"{int(last / 60)}h" if last is not None else "ever") + " — schedule disabled or pipeline broken"
+          print(json.dumps({**override, "reason": reason}))
+          PY
+          {
+            echo "state=$(jq -r '.state // "keep"' xcheck.json)"
+            echo "reason=$(jq -r '.reason' xcheck.json)"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Decide action
         id: decide
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          STATE: ${{ steps.check.outputs.state }}
+          STATE_IN: ${{ steps.check.outputs.state }}
+          REASON_IN: ${{ steps.check.outputs.reason }}
+          RUN_URL_IN: ${{ steps.check.outputs.run_url }}
+          XSTATE: ${{ steps.xcheck.outputs.state }}
+          XREASON: ${{ steps.xcheck.outputs.reason }}
           STREAK: ${{ steps.check.outputs.streak }}
         run: |
+          STATE=$STATE_IN
+          REASON=$REASON_IN
+          RUN_URL=$RUN_URL_IN
+          if [ -n "$XSTATE" ] && [ "$XSTATE" != "keep" ]; then
+            STATE=$XSTATE
+          fi
+          if [ -n "$XREASON" ]; then
+            REASON=$XREASON
+            # For API-derived verdicts a single historical run is not useful
+            # context; point at the producer workflow run list instead.
+            RUN_URL=$PRODUCER_RUNS_URL
+          fi
           PREV=$(gh api \
             "repos/${{ github.repository }}/actions/workflows/twitter-watchdog.yml/runs?per_page=10" \
             --jq '[.workflow_runs[] | select(.id != ${{ github.run_id }} and .status == "completed")] | .[0].conclusion // "none"')
-          echo "prev_watchdog=$PREV state=$STATE streak=$STREAK"
+          echo "prev_watchdog=$PREV state=$STATE streak=$STREAK reason=$REASON"
 
           ACTION=ok
           if [ "$STATE" = "failing" ] && [ "$PREV" != "failure" ]; then
@@ -88,21 +175,25 @@ jobs:
           elif [ "$PREV" = "failure" ]; then
             ACTION=recover
           fi
-          echo "action=$ACTION" >> "$GITHUB_OUTPUT"
+          {
+            echo "action=$ACTION"
+            echo "reason=$REASON"
+            echo "run_url=$RUN_URL"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Notify Discord
         if: steps.decide.outputs.action != 'ok' && steps.decide.outputs.action != 'ongoing'
         env:
           ACTION: ${{ steps.decide.outputs.action }}
-          REASON: ${{ steps.check.outputs.reason }}
+          REASON: ${{ steps.decide.outputs.reason }}
           STREAK: ${{ steps.check.outputs.streak }}
-          RUN_URL: ${{ steps.check.outputs.run_url }}
+          RUN_URL: ${{ steps.decide.outputs.run_url }}
           WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           case "$ACTION" in
-            alert)     MSG="🔴 **wildrift twitter feed DOWN** — $REASON (consecutive failures: $STREAK). Release pipeline is unaffected. Producer run: $RUN_URL" ;;
-            escalate)  MSG="🔴⏰ twitter feed STILL DOWN — $STREAK consecutive failures. $REASON Producer run: $RUN_URL" ;;
-            recover)   MSG="🟢 twitter feed recovered after $STREAK failed run(s). Last producer run: $RUN_URL" ;;
+            alert)     MSG="🔴 **wildrift twitter feed DOWN** — $REASON (consecutive failures: $STREAK). Release pipeline is unaffected. Details: $RUN_URL" ;;
+            escalate)  MSG="🔴⏰ twitter feed STILL DOWN — $STREAK consecutive failures. $REASON Details: $RUN_URL" ;;
+            recover)   MSG="🟢 twitter feed recovered after $STREAK failed run(s). Details: $RUN_URL" ;;
           esac
           echo "$MSG"
           if [ -z "$WEBHOOK" ]; then
@@ -115,5 +206,5 @@ jobs:
       - name: Surface failure on GitHub
         if: steps.decide.outputs.action == 'alert' || steps.decide.outputs.action == 'escalate'
         run: |
-          echo "::error::twitter producer failing: ${{ steps.check.outputs.reason }} (streak ${{ steps.check.outputs.streak }})"
+          echo "::error::twitter producer failing: ${{ steps.decide.outputs.reason }} (streak ${{ steps.check.outputs.streak }})"
           exit 1
