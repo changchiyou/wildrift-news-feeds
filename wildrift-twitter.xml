@@ -7,7 +7,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 23:06:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 03:59:30 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/2113103102823776636</link>
+      <description>Nine-tailed triple threat 💎🍭🦋 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2113103102823776636</guid>
+      <pubDate>Thu, 22 Oct 2026 03:00:13 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HVNAEspXgAAa_pY.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HVNAEtDXkAAAPNe.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HVNAEsRXoAAedVI.jpg" medium="image"/>
+        <media:content url="https://pbs.twimg.com/media/HVNAEsuW8AAYzgi.jpg" medium="image"/>
+      </media:group>
+    </item>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/2112944575480315997</link>
@@ -147,24 +160,6 @@ https://t.co/yja3wRpK0a </description>
       <pubDate>Fri, 16 Oct 2026 02:00:01 +0000</pubDate>
       <media:group>
         <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2110912435146149888/pu/img/Y53Qrowm1MIlbBx9.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2110302146126131289</link>
-      <description>⚒️ Patch Notes 7.3b ⚒️ 
-
-🐻 Buffs for struggling champions
-🗡️ More tools for assassins
-🛡️ Item and rune adjustments
-
-Check out the latest Wild Rift patch notes! 📖👇
-
-https://t.co/OvNbWpHglq </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2110302146126131289</guid>
-      <pubDate>Wed, 14 Oct 2026 09:30:13 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HUlMnlXX0AACx0Q.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
