@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-10-25T13:05:30.903742+00:00",
- "run_id": "40195849877",
- "run_url": "https://github.com/changchiyou/wildrift-news-feeds/actions/runs/40195849877",
+ "updated_at": "2026-10-25T17:32:21.386706+00:00",
+ "run_id": "40216737889",
+ "run_url": "https://github.com/changchiyou/wildrift-news-feeds/actions/runs/40216737889",
  "last_rc": 0,
  "history": [
   {
@@ -192,6 +192,11 @@
   {
    "run_id": "40195849877",
    "ts": "2026-10-25T13:05:30.903742+00:00",
+   "rc": 0
+  },
+  {
+   "run_id": "40216737889",
+   "ts": "2026-10-25T17:32:21.386706+00:00",
    "rc": 0
   }
  ]
