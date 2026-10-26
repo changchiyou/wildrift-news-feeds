@@ -7,7 +7,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 23:06:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 04:00:40 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/2114537555169353917</link>
+      <description>Wild Rounds: SMASH is taking over Seoul on November 21–22 UTC! 🇰🇷
+Get ready for two days of competition, community, and plenty more. 🔥
+🌏 Creators from around the world
+⚔️ Wild Rift competition
+🎨 Artist Alley
+🎶 Community music party
+💜 K/DA cosplayers &amp;amp; more </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2114537555169353917</guid>
+      <pubDate>Mon, 26 Oct 2026 02:00:14 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HVhYszXWUAA4kv8.jpg" medium="image"/>
+      </media:group>
+    </item>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/2114190258728235423</link>
@@ -172,23 +188,6 @@ https://t.co/yja3wRpK0a </description>
       <media:group>
         <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2112361997798875137/pu/img/kh22mvRn3pfheGRi.jpg" medium="image"/>
       </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/2112015888706687332</link>
-      <description>We don’t know about you, but these special Wild Rift moves got us sweating 🔥🥵 Go check out the full MV over at @KDA_MUSIC 🎤💃 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2112015888706687332</guid>
-      <pubDate>Mon, 19 Oct 2026 03:00:01 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2112014692952477696/pu/img/zkETgrwK30FSVe7L.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X</title>
-      <link>https://x.com/wildrift/status/2112013642363539542</link>
-      <description>Can you spot the Wild Rift fits 👀👠</description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2112013642363539542</guid>
-      <pubDate>Mon, 19 Oct 2026 02:51:06 +0000</pubDate>
     </item>
   </channel>
 </rss>
