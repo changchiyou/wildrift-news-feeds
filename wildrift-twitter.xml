@@ -7,7 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 01:54:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 07:32:13 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
+      <link>https://x.com/wildrift/status/2114914987873304741</link>
+      <description>Magic, mayhem, and mysterious mansions. Something wicked this way comes on October 30th UTC.
+🕯️🪓Chibi Sion
+⛰️🏠Wondertown Malphite </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2114914987873304741</guid>
+      <pubDate>Tue, 27 Oct 2026 03:00:00 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2114913783650951168/pu/img/jcLQtS0Z7Qx52s1V.jpg" medium="image"/>
+      </media:group>
+    </item>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/2114537555169353917</link>
@@ -173,20 +185,6 @@ https://t.co/yja3wRpK0a </description>
         <media:content url="https://pbs.twimg.com/media/HVDIXk1XUAATANd.jpg" medium="image"/>
         <media:content url="https://pbs.twimg.com/media/HVDIXkzXYAEGwYy.jpg" medium="image"/>
         <media:content url="https://pbs.twimg.com/media/HVDIXk5XkAAYCiW.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/2112363176520020166</link>
-      <description>They’re only happy when it reigns. The Grand Coronation draws nigh on October 23rd UTC.
-⚔️👑Prestige Battle Queen Zyra
-⚔️👑Battle Queen Sivir
-⚔️👑Battle Queen Nidalee
-⚔️👑Battle Queen Kalista </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2112363176520020166</guid>
-      <pubDate>Tue, 20 Oct 2026 02:00:01 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2112361997798875137/pu/img/kh22mvRn3pfheGRi.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
