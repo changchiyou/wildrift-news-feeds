@@ -7,7 +7,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 04:51:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 11:08:31 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/2115375578832326846</link>
+      <description>⚒️ Patch Notes 7.3d ⚒️ 
+🥷 Akali and Lee Sin buffs
+❄️ Ashe and Malphite nerfs
+🛠️ Item and system adjustments
+💥 Baron buffs and turret tweaks
+
+https://t.co/LXxCglbFsI </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2115375578832326846</guid>
+      <pubDate>Wed, 28 Oct 2026 09:30:14 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HVtS4ODXoAAou0s.jpg" medium="image"/>
+      </media:group>
+    </item>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
       <link>https://x.com/wildrift/status/2115262295093731340</link>
@@ -147,16 +163,6 @@ https://t.co/yja3wRpK0a </description>
       <pubDate>Wed, 21 Oct 2026 09:30:15 +0000</pubDate>
       <media:group>
         <media:content url="https://pbs.twimg.com/media/HVJPvwOWwAAUIqA.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2112740712231870748</link>
-      <description>Mirror, mirror on the wall, who’s the foxiest of ‘em all 🪞 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2112740712231870748</guid>
-      <pubDate>Wed, 21 Oct 2026 03:00:13 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HVH2e1AWQAAwG9V.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
