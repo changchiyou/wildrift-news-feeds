@@ -7,7 +7,17 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 23:11:42 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 05:13:10 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/2116711884346860005</link>
+      <description>You’re not ready for the heat we’re about to drop ❤️‍🔥 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2116711884346860005</guid>
+      <pubDate>Sun, 01 Nov 2026 02:00:14 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HWASPZTWsAEjtmC.jpg" medium="image"/>
+      </media:group>
+    </item>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/2116349502642610605</link>
@@ -80,16 +90,6 @@ Get ready for two days of competition, community, and plenty more. 🔥
       <pubDate>Mon, 26 Oct 2026 02:00:14 +0000</pubDate>
       <media:group>
         <media:content url="https://pbs.twimg.com/media/HVhYszXWUAA4kv8.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2114190258728235423</link>
-      <description>We don't do basic things. Zoom in on the exquisite details of pure prestige 💅💎 #FIRESTARTER </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2114190258728235423</guid>
-      <pubDate>Sun, 25 Oct 2026 03:00:12 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HVcc1hwXcAA-Y2h.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
