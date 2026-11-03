@@ -7,7 +7,17 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 20:39:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 02:49:01 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/2117436661625741382</link>
+      <description>We’re laying it down in ONE DAY. BE READY 🎤🔥 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2117436661625741382</guid>
+      <pubDate>Tue, 03 Nov 2026 02:00:14 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HWKla8WXcAAYCIv.jpg" medium="image"/>
+      </media:group>
+    </item>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X</title>
       <link>https://x.com/wildrift/status/2117311263055266179</link>
@@ -81,18 +91,6 @@ https://t.co/LXxCglbFsI </description>
       <pubDate>Wed, 28 Oct 2026 02:00:05 +0000</pubDate>
       <media:group>
         <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2115261090116358144/pu/img/KHRrohL1OVJ0zcRZ.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🎬</title>
-      <link>https://x.com/wildrift/status/2114914987873304741</link>
-      <description>Magic, mayhem, and mysterious mansions. Something wicked this way comes on October 30th UTC.
-🕯️🪓Chibi Sion
-⛰️🏠Wondertown Malphite </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2114914987873304741</guid>
-      <pubDate>Tue, 27 Oct 2026 03:00:00 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2114913783650951168/pu/img/jcLQtS0Z7Qx52s1V.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
