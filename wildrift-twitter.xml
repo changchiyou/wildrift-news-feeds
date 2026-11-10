@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 18:31:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 01:55:37 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/2119641191520125108</link>
@@ -167,25 +167,6 @@ https://t.co/uvv1PJZiWR </description>
       <media:group>
         <media:content url="https://pbs.twimg.com/media/HWPvAp5WMAA0qvp.jpg" medium="image"/>
       </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2117436661625741382</link>
-      <description>We’re laying it down in ONE DAY. BE READY 🎤🔥 </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2117436661625741382</guid>
-      <pubDate>Tue, 03 Nov 2026 02:00:14 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HWKla8WXcAAYCIv.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X</title>
-      <link>https://x.com/wildrift/status/2117311263055266179</link>
-      <description>RT @SummonersSofa: You heard it right.. Summoner’s Sofa is going to FanFest with @wildrift 
-
-See you at the Wild Rift booth all weekend for…</description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2117311263055266179</guid>
-      <pubDate>Mon, 02 Nov 2026 17:41:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
