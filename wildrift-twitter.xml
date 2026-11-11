@@ -7,7 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 22:59:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 02:42:52 +0000</lastBuildDate>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
+      <link>https://x.com/wildrift/status/2120343302176112675</link>
+      <description>Jealous much? 👍👍  @G2esports @G2Caps 
+#wildrift #thumbsup </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2120343302176112675</guid>
+      <pubDate>Wed, 11 Nov 2026 02:30:11 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HWz4_0kWgAATlVX.jpg" medium="image"/>
+      </media:group>
+    </item>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/2120054809508106626</link>
@@ -166,16 +177,6 @@ https://t.co/uvv1PJZiWR </description>
       <pubDate>Wed, 04 Nov 2026 10:30:16 +0000</pubDate>
       <media:group>
         <media:content url="https://pbs.twimg.com/media/HWRjvzsXgAA_Ijv.jpg" medium="image"/>
-      </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
-      <link>https://x.com/wildrift/status/2117799048698609678</link>
-      <description>The matches are struck ❤️‍🔥K/DA HEATBRINGER is out now, exclusively on Wild Rift 🔥Step into the fire and light up your next match! </description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2117799048698609678</guid>
-      <pubDate>Wed, 04 Nov 2026 02:00:14 +0000</pubDate>
-      <media:group>
-        <media:content url="https://pbs.twimg.com/media/HWPvAp5WMAA0qvp.jpg" medium="image"/>
       </media:group>
     </item>
   </channel>
