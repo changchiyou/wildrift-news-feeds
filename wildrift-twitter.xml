@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 17:13:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 22:55:56 +0000</lastBuildDate>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
       <link>https://x.com/wildrift/status/2124118182973620424</link>
@@ -36,6 +36,16 @@
       <pubDate>Sat, 21 Nov 2026 10:19:38 +0000</pubDate>
       <media:group>
         <media:content url="https://pbs.twimg.com/media/HXpEVyoXYAAlLfK.jpg" medium="image"/>
+      </media:group>
+    </item>
+    <item>
+      <title>League of Legends: Wild Rift (@wildrift) reply to @wildrift on X 🌄</title>
+      <link>https://x.com/wildrift/status/2124000372553576659</link>
+      <description>Meet with our amazing cosplayer!! 💙💙💙 </description>
+      <guid isPermaLink="false">https://x.com/wildrift/status/2124000372553576659</guid>
+      <pubDate>Sat, 21 Nov 2026 04:42:05 +0000</pubDate>
+      <media:group>
+        <media:content url="https://pbs.twimg.com/media/HXn3FFeaAAAgAE-.jpg" medium="image"/>
       </media:group>
     </item>
     <item>
@@ -134,13 +144,6 @@ https://t.co/o6hI2Vi1ZE </description>
       <media:group>
         <media:content url="https://pbs.twimg.com/media/HXiIc6FXkAAXKBS.jpg" medium="image"/>
       </media:group>
-    </item>
-    <item>
-      <title>League of Legends: Wild Rift (@wildrift) on X</title>
-      <link>https://x.com/wildrift/status/2123471318435934554</link>
-      <description>Wait we need to know his main</description>
-      <guid isPermaLink="false">https://x.com/wildrift/status/2123471318435934554</guid>
-      <pubDate>Thu, 19 Nov 2026 17:39:49 +0000</pubDate>
     </item>
     <item>
       <title>League of Legends: Wild Rift (@wildrift) on X 🌄</title>
